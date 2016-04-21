@@ -1,0 +1,15 @@
+
+DROP TABLE USERI10 CASCADE CONSTRAINTS;
+
+CREATE TABLE USERI10(
+  id_user INTEGER,
+  username VARCHAR2(30),
+  password VARCHAR2(30),
+  nume VARCHAR2(30),
+  prenume VARCHAR2(30),
+  email VARCHAR2(30),
+  sex VARCHAR2(30),
+  oras VARCHAR2(30),
+  adresa VARCHAR2(50),
+  telefon VARCHAR2(10)
+);

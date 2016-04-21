@@ -1,0 +1,144 @@
+* { 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#insertParfum{
+	display: block;
+	width: 900px;
+	margin: auto;
+}
+h3{
+	text-align: left;
+	font-size: 24px;
+        padding-left:500px;
+}
+form{
+	width:800px;
+	margin:auto;
+}
+
+label{
+	text-align: right;
+	float: left;
+	width:150px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    margin-right: 20px;
+}
+input{
+	width:350px;
+	height: 26px;
+}
+#submit{
+	text-align: center;
+	height: 30px;
+}
+#Submit:hover{
+	border: 1px solid black;
+	font-size: 18px;
+}
+/*---------------------------------------DELETE PARFUM----------------*/
+
+#deleteParfum{
+	width:900px;
+	display: block;
+	margin: auto;
+}
+#deleteParfum h3{
+	padding: 0;
+	text-align: center;
+}
+#deleteParfumButton{
+	width:120px;
+	height: 30px;
+}
+#deleteParfum form{
+	text-align: center;
+}
+#deleteParfum select{
+	height: 30px;
+	width:120px;
+	
+}
+
+/*----------------------------------back-endStergeParfum------------------------------------------------------------*/
+.per{
+	border: 10px solid rgba(0, 0, 0, 0.3);
+	border-radius: 15px;
+	display: block;
+	margin-bottom: 40px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.delete{
+	border:1px black solid;
+	background-color: gray;
+	
+	margin: 0;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 15px;
+	float: right;
+}
+.delete select{
+	margin: auto;
+}
+/*---------------------------------------------COMENZI----------------------------------------------------------------*/
+table{
+	margin:auto;
+}
+/*------------------------------------------------UPDATE---------------------------------------------------------*/
+#updateParfum{
+	text-align: center;
+}
+.update{
+	margin-bottom: 10px;
+}
+textarea{
+	border: medium #85b9e9 double;
+	}
+	#deleteParfumButton{
+	width:120px;
+	height: 30px;
+}
+#updateParfum form{
+	text-align: center;
+}
+#updateParfum select{
+	height: 30px;
+	width:120px;
+	
+}
+/*---------------------------------------insertPromotie--------------------------------*/
+div1{
+padding-left:240px;
+}
+.submit{
+width:200px;
+}	
+
+form input{
+border: medium #85b9e9 double;
+}
+
+.submit input
+{
+color: #000;
+background: #ffa20f;
+border: 2px outset #d7b9c9
+}
+/*------------------------------------------------------------------------------------*/
+.com{
+	width: 200px;
+	margin: auto;
+}
+.com table{
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
