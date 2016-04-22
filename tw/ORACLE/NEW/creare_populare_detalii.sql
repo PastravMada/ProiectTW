@@ -15,5 +15,6 @@ CREATE TABLE DETALII(
   culoare VARCHAR2(20),
   temperatura INTEGER,
   anotimp VARCHAR2(20),
+  descriereEngleza VARCHAR(200),
   PRIMARY KEY(id_detalii)
 );
