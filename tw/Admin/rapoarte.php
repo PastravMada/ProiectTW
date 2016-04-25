@@ -6,10 +6,9 @@
 </head>
 <body>
 	<?php include('IncluziuniAdmin/headerAdmin.php');?>
-	<h2 align=center style='color:black;'>Vizualizati rapoarte in format :</h2>
+	<h2 align=center style='color:black;'>Rapoarte in format :</h2>
 	<section align=center>
-		<div><a href="rapoarteOption.php?format=PDF">PDF</a></div>	
-		<div><a href="rapoarteOption.php?format=HTML">HTML</a></div>
+		<div><a href="rapoarteOption.php?format=XML">XML</a></div>	
 		<div><a href="rapoarteOption.php?format=CSV">CSV</a></div>
 	</section>
 </body>

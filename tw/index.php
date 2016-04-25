@@ -10,7 +10,10 @@
 <header>
 	<img src="flower.jpg" width="1350" height="400">	
 </header>
-	
+	<a href="cautareAvansata.php"><div class="wrap">
+		<img src="http://yzyperfumes.com/images/background2.jpg" id="categorie1" alt="Parfum" width="100" height="100"/>
+		<p class="desc" id="parf1">Cautare avansata</h3>
+	</div></a>
 	<section>
 	<article id="logform" align="center">
 			<div class="log">

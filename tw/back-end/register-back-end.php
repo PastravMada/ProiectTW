@@ -51,7 +51,7 @@ function verify_errors($errno)
     $telefon=$_REQUEST["telefon"];
     
     
-    $conn=oci_connect("mada","Pastravmadalina","localhost/XE");
+    $conn=oci_connect("mihaela","veronica","localhost/XE");
 
 
     if(isset($_POST['unume'])&&isset($_POST['prenume'])&&
@@ -72,15 +72,10 @@ $r = oci_execute($stid);
 if (!$r) {
     $e = oci_error($stid);  // For oci_execute errors pass the statement handle
     verify_errors($e['code']);
-    // print htmlentities($e['code']);
-    // print "\n<pre>\n";
-    // print htmlentities($e['sqltext']);
-    // printf("\n%".($e['offset']+1)."s", "^");
-    // print  "\n</pre>\n";
 }
 else
 
-		 $sql2='SELECT ID_USER FROM USERI WHERE ID_USER=(SELECT MAX(ID_USER) FROM USERI)';
+    $sql2='SELECT ID_USER FROM USERI WHERE ID_USER=(SELECT MAX(ID_USER) FROM USERI)';
     $stid2=oci_parse($conn, $sql2);
     oci_execute($stid2);
 

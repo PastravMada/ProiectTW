@@ -1,6 +1,6 @@
 <?php
 	ini_set('max_execution_time', 300);
-	$conn=oci_connect("ramona","andreea","localhost/XE");
+	$conn=oci_connect("mihaela","veronica","localhost/XE");
 	if(isset($_GET['com'])){
 		$comanda=$_GET['com'];
 		echo $comanda;

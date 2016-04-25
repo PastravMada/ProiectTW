@@ -5,6 +5,10 @@ body{
     padding: 0px;
 	height: 100%;
 }
+image{
+    width: 100px;
+    height: 100px;
+}
 header{
 	display: block;
 	margin:0;
