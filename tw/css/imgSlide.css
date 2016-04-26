@@ -5,7 +5,7 @@ min-height: 100%;
 
 #categorie1,#categorie2,#categorie3,#categorie4,#categorie5,#categorie6,
 #categorie7, #categorie8,p, body,#theCanvas {
-			width: 100%;
+			width: 70%;
 			height: 100%;
 			margin: 0px;
 			padding: 0px;

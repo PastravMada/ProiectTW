@@ -4,7 +4,7 @@ ini_set('memory_limit', '-1');
 ob_start('ob_gzhandler');
 header('Content-type: application/octet-stream');
 header('Content-Disposition: attachment; filename="fileReport.csv"');
-//readfile('fileReport.csv');
+readfile('fileReport.csv');
 
 $conn=oci_connect("mihaela","veronica","localhost/XE");
 

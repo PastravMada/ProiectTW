@@ -4,7 +4,7 @@
 ?>
 <html>
 <head>
-	<link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="" />
 	<link rel="stylesheet" type="text/css" href="IncluziuniAdmin/incluziuniAdmin.css">
 </head>
 <body>
@@ -20,8 +20,9 @@
 
 	else if($format=='CSV'){
 		echo "<section align=center>";
-		echo "<div><a href='csvReportStoc.php'>Stoc Parfumuri</a></div>";	
-		echo "<h4>Situatie vanzari</h4>";
+		echo "<h3>Export rapoarte</h3>";
+		echo "<div><a href='csvReportStoc.php'>Toate florile</a></div>";	
+		echo "</br></br>";
 		echo "<form method='post' action='csvReport.php'>";
 		echo "<select name='categorie'><option>Categorie</option>";
 			$sql='SELECT UNIQUE CATEGORIE FROM PARFUM';

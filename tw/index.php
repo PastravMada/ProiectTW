@@ -11,26 +11,13 @@
 	<img src="flower.jpg" width="1350" height="400">	
 </header>
 	<a href="cautareAvansata.php"><div class="wrap">
-		<img src="http://yzyperfumes.com/images/background2.jpg" id="categorie1" alt="Parfum" width="100" height="100"/>
+		<img src="http://yzyperfumes.com/images/background2.jpg" id="categorie1" alt="Parfum" width="100" height="500"/>
 		<p class="desc" id="parf1">Cautare avansata</h3>
 	</div></a>
 	<section>
 	<article id="logform" align="center">
 			<div class="log">
 				<h3>Login</h3>
-				<?php if(isset($_GET['error'])){
-							$er=$_GET['error'];
-							if($er=='logForSell'){
-								echo "<p style='font-size:10px;color:red;'>Trebuie sa fiti logat pentru a efectua cumpararea!</p>";
-							}
-						}
-						if(isset($_GET['message'])){
-							$message=$_GET['message'];
-							if($message=='register'){
-								echo "<p style='font-size:10px;color:green;'>Contul d-voastra a fost creat. Va rugam sa va logati.</p>";
-							}
-						}
-						?>
 				<form action="back-end/login-backend.php?error=$er" method="post">					
 					<fieldset>
 						<br>

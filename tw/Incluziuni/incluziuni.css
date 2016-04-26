@@ -48,10 +48,7 @@ header div a{
    /* border-left: 1px solid #919191;*/
     margin-right: 10px;
 }
-#cart{
-  border-left:1px solid #919191;
-  border-right:1px solid #919191;
-}
+
 header div:hover >a {
 
     text-decoration:none;
