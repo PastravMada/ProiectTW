@@ -15,6 +15,7 @@
 	z-index: 22;
 }
 
+
 #wrapper{
 	width: 60%;
 	right: 0px;
@@ -22,6 +23,10 @@
 	margin: 0px auto;	
 	width: 500px;
 	position: relative;	
+	
+	
+	
+	
 }
 
 #wrapper h1{
@@ -81,7 +86,7 @@ input {
 
 /* all the input except submit and checkbox */
 #wrapper input:not([type="checkbox"]){
-	width: 92%;
+	width: 90%;
 	margin-top: 4px;
 	padding: 10px 5px 10px 32px;	
 	border: 1px solid rgb(178, 178, 178);
@@ -108,6 +113,42 @@ input {
     font-style: normal;
 }
 
+body {
+	background-image: url("bee.png");
+	 background: linear-gradient(linen, lightblue);
+
+}
+#textLogin{
+	display: inline;
+	margin-top: 7%;
+	margin-left: 1%;
+	float: left;
+	padding: 0;
+}
+
+#imagineLogin {
+	display: inline;
+	float: right;
+	width: 30%;
+	height: 25%;
+	padding: 0%;
+}
+
+#imagineLogin2{
+	display: inline;
+	margin-top: 5%;
+	margin-left: 2%;
+	float: left;
+	width: 15%;
+	height: 10%;
+	padding: 0;
+}
+
+#wrapper label{
+	width:90%;
+	margin-top: 4px;
+	padding: 10px 5px 10px 32px;
+}
 /** the magic icon trick ! **/
 [data-icon]:after {
     content: attr(data-icon);
