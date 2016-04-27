@@ -21,7 +21,10 @@
 	else if($format=='CSV'){
 		echo "<section align=center>";
 		echo "<h3>Export rapoarte</h3>";
-		echo "<div><a href='csvReportStoc.php'>Toate florile</a></div>";	
+		echo "<div><a href='csvExport.php'>Toate florile</a></div>";	
+		echo "</br></br>";
+		echo "<h3>Import rapoarte</h3>";
+		echo "<div><a href='csvImport.php'>Toate florile</a></div>";
 		echo "</br></br>";
 		echo "<form method='post' action='csvReport.php'>";
 		echo "<select name='categorie'><option>Categorie</option>";
