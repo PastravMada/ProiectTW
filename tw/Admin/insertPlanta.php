@@ -9,7 +9,7 @@
 <body>
 	<?php include('IncluziuniAdmin/headerAdmin.php');?>
 	<section id="insertFloare">
-		<h3 style="padding-left:300px;">Insereaza floare</h3>
+		<div style="padding-left:52px;padding-right:52px;align=center;"><h3 style="background-color:#BDB76B;color:black;padding-left:290px;">Insereaza floare</h3></div>
 				<form  action="inserting.php" method="POST" autocomplete="on" enctype="multipart/form-data">
 				<fieldset>
 						<br>
@@ -82,10 +82,10 @@
 							<label  for="imagini">Adauga imagine: </label>
 							<input type="file" id="imagini" name="imagini"/>
 						<br/>
-						<br/>																
-					<div2 style="padding-left:200px;"><input class="submit" type="submit" name="submit" value="ADAUGA FLOARE"/>
+						<br/>																			
 					</fieldset>
-					</form>
+					<div2 style="padding-left:300px;"><button width="130px;" class="btn" type="submit" name="submit" value="ADAUGA FLOARE"/>ADAUGA FLOARE</button></div2>
+					</form>			
 					<br/>
 					<br/>
 	</section>		

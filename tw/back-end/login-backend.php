@@ -37,7 +37,7 @@
     }
     
     if($gasit==0){
-    	header("location: ../login.php");
+    	header("location: ../index.php");
     }
     else{
         if(isset($_REQUEST['remember'])){
@@ -53,7 +53,7 @@
         	header("location: ../Admin/admin.php");
         }
         else{
-        header("location: ../index.php");
+        header("location: ../cautareAvansata.php");
     		}
       }
   

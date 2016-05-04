@@ -14,11 +14,11 @@
 	<link rel="stylesheet" type="text/css" href="Incluziuni/incluziuni.css">
 	<link rel="stylesheet" type="text/css" href="css/generareFloare.css">
 </head>
-<body>
+<body background="back1.jpg">
 	<?php include('Incluziuni/header.php');?>
-	<section>
+	<section >
 		<?php include('Incluziuni/aside.php');?>
-		<article id="ofloare">
+		<article id="ofloare" style='background:white;'>
 			<?php 
 				$conn=oci_connect("mihaela","veronica","localhost/XE");
 
@@ -52,19 +52,56 @@
 					$denumireStiintifica=oci_result($stid2, 'DENUMIRESTIINTIFICA');
 				    $descriere=oci_result($stid2, 'DESCRIERE');
 				}
-				echo "<h2>".$denumirePopulara."</h2>";
-				echo "<div class='tot' ><div class='in'> <img class='image' src='".$imagini."'/></div>";
-				echo "<div class='detalii'>Denumire stiintifica: ".$denumireStiintifica;
-				echo "<br>Origine: ".$origine;
-				echo "<br>Localizare: ".$localizare;
-				echo "<br>Caracteristici ".$caracteristici;
-				echo "<br>Inmultire: ".$inmultire;
-				echo "<br>".$descriere;
-				echo "<br> English : ".$descriereEngleza;
+				echo "<h2 style='background-color:#BDB76B;color:black;padding-left:20px;'>".$denumirePopulara."</h2>";
+				echo "<div class='in'><p style='font-size:100%;color:red;margin-left: 10px;'><img class='image' align='left' src='".$imagini."'/>".$descriere."</p></div>";
+				echo "<div style='background:;'class='detalii'><b>Denumire stiintifica: </b>".$denumireStiintifica;
+				echo "<br><br><b>Origine:</b> ".$origine;
+				echo "<br><br><b>Localizare: </b>".$localizare;
+				echo "<br><br><b>Caracteristici: </b>".$caracteristici;
+				echo "<br><br><b>Inmultire: </b>".$inmultire;
+				echo "<br><br><b>Beneficii: </b>".$beneficii;
+				echo "<br><br><b>Regim dezvoltare: </b>".$regimDezvoltare;
+				echo "<br><br><b>Perioada cultivare: </b>".$perioadaCultivare;
+				echo "<br><br><b>Soiuri inrudite: </b>".$soiuriInrudite;
+				echo "<br><br><b>Culoare: </b>".$culoare;
+				echo "<br><br><b>Temperatura: </b>".$temperatura;
+				echo "<br><br><b>Anotimp: </b>".$anotimp;
+				echo "<br><br><b> English : </b>".$descriereEngleza;
 				echo "</div>";
 				
 				?>
 		</article>
+		
+		<article id="comentarii">
+				<?php 
+				echo '<form action="back-end/comentarii-back-end.php?id='.$id .'" method="post">';?>
+					<textarea style="resize:none;" cols="50" rows="5" name="comentariu"></textarea>
+					<input id="submit" type="submit" value="Trimite"/> 
+				<?php	echo '</form>'; ?>
+			<?php
+			$sql4='SELECT u.ID_USER,COMENTARIU,NUME FROM COMENTARII c,USERI u WHERE c.ID_USER=u.ID_USER AND ID_PLANTA=:id_planta';
+			$stid4=oci_parse($conn, $sql4);
+			oci_bind_by_name($stid4, ':id_planta', $id);
+			oci_execute($stid4);
+			$ok='false';
+			while (oci_fetch($stid4)) {
+				$id_user=oci_result($stid4, 'ID_USER');
+				$comentariu=oci_result($stid4, 'COMENTARIU');
+				$nume=oci_result($stid4, 'NUME');
+				if($ok=='false'){
+					echo "<h3>Comentarii</h3>";
+					$ok='True';
+				}
+				echo "<div class='unComentariu'>";
+				echo "<p style='text-decoration:underline;margin-left:20px;'>".ucfirst($nume)." a comentat:</p>";
+				echo "<p style='margin-left:10px;'>".$comentariu."</p>";
+				echo "</div>";
+			}
+			if($ok=='false'){
+				echo "<p style='margin-top:20px;border-top:1px dashed black;'>Nu exista comentarii despre acest produs.</p>";
+			}
+			?>
+			</article>
 				<?php
 				oci_close($conn);
 			?>

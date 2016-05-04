@@ -16,7 +16,7 @@ session_start();
 	else{
 		header('location: ../login.php');
 	}
-	$conn=oci_connect("ramona","andreea","//localhost/XE");
+	$conn=oci_connect("mihaela","veronica","//localhost/XE");
 	$sql='SELECT ID_USER FROM USERI WHERE USERNAME=:username';
 	$stid=oci_parse($conn, $sql);
 	oci_bind_by_name($stid, ':username', $username);
@@ -24,13 +24,13 @@ session_start();
 	while (oci_fetch($stid)) {
 		$id_user=oci_result($stid, 'ID_USER');
 	}
-	$sql2='INSERT INTO COMENTARII VALUES(:id_user,:id_parfum,:comentariu)';
+	$sql2='INSERT INTO COMENTARII VALUES(:id_user,:id_planta,:comentariu)';
 	$stid2=oci_parse($conn, $sql2);
 	oci_bind_by_name($stid2, ':id_user', $id_user);
-	oci_bind_by_name($stid2, ':id_parfum', $id);
+	oci_bind_by_name($stid2, ':id_planta', $id);
 	oci_bind_by_name($stid2, ':comentariu', $comm);
 	oci_execute($stid2);
 	oci_close($conn);
-	header('location: ../generareUnParfum.php?id='.$id);
+	header('location: ../generareFloare.php?id='.$id);
 
 ?>

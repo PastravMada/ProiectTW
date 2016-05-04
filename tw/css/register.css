@@ -15,7 +15,6 @@
 	z-index: 22;
 }
 
-
 #wrapper{
 	width: 60%;
 	right: 0px;
@@ -23,10 +22,6 @@
 	margin: 0px auto;	
 	width: 500px;
 	position: relative;	
-	
-	
-	
-	
 }
 
 #wrapper h1{
@@ -115,7 +110,7 @@ input {
 
 body {
 	background-image: url("bee.png");
-	 background: linear-gradient(linen, lightblue);
+	background: linear-gradient(linen, lightblue);
 
 }
 #textLogin{

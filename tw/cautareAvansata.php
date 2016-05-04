@@ -7,7 +7,7 @@
 	<script src="functions.js" type="text/javascript"></script>
 </head>
 <body>
-	<?php include('Incluziuni/header.php');?>
+	<?php include('Incluziuni/header.php');include('Incluziuni/aside.php');?>
     <article id="generareFlori">	
 			<?php
 			$conn=oci_connect("mihaela","veronica","localhost/XE");
