@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/generareFlori.css">
 
 </head>
-<body>
+<body background="back1.jpg">
 	<?php include('Incluziuni/header.php');?>
 	<section>
 		<?php include('Incluziuni/aside.php');?>
@@ -32,11 +32,14 @@
 						oci_execute($stid1);
 							while(oci_fetch($stid1)){
 								$descriere=oci_result($stid1, 'DESCRIERE');
+								$denumire=oci_result($stid1, 'DENUMIREPOPULARA');
+								echo '<br><br>';
 								echo '<div class="unParfum"><a href=generareFloare.php?id='.$id_detalii.'>';
 								echo '<div align="center">';
+								echo "<p style='font-size:180%;color:red;'>$denumire</p>'";
 								echo '<img  style="height:400px;width:600px;" src="'.$imagine. '"/>';
 								echo '</div>';
-								echo '<p class="descriereParfum">'.$descriere.'</p>';
+								echo '<p>'.$descriere.'</p>';
 								echo "</a></div>";	
 						}						
                      }				
