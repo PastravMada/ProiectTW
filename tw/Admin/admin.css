@@ -3,7 +3,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-#insertParfum{
+#insertFloare{
 	display: block;
 	width: 900px;
 	margin: auto;
@@ -16,6 +16,7 @@ h3{
 form{
 	width:800px;
 	margin:auto;
+	background:white;
 }
 
 label{
@@ -27,10 +28,11 @@ label{
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
     margin-right: 20px;
+	margin-top: 5px;
 }
 input{
-	width:350px;
-	height: 26px;
+	width:370px;
+	height: 30px;
 }
 #submit{
 	text-align: center;
@@ -40,31 +42,31 @@ input{
 	border: 1px solid black;
 	font-size: 18px;
 }
-/*---------------------------------------DELETE PARFUM----------------*/
+/*---------------------------------------DELETE Floare----------------*/
 
-#deleteParfum{
+#deleteFloare{
 	width:900px;
 	display: block;
 	margin: auto;
 }
-#deleteParfum h3{
+#deleteFloare h3{
 	padding: 0;
 	text-align: center;
 }
-#deleteParfumButton{
+#deleteFloareButton{
 	width:120px;
 	height: 30px;
 }
-#deleteParfum form{
+#deleteFloare form{
 	text-align: center;
 }
-#deleteParfum select{
+#deleteFloare select{
 	height: 30px;
 	width:120px;
 	
 }
 
-/*----------------------------------back-endStergeParfum------------------------------------------------------------*/
+/*----------------------------------back-endStergeFloare------------------------------------------------------------*/
 .per{
 	border: 10px solid rgba(0, 0, 0, 0.3);
 	border-radius: 15px;
@@ -88,12 +90,9 @@ a{
 .delete select{
 	margin: auto;
 }
-/*---------------------------------------------COMENZI----------------------------------------------------------------*/
-table{
-	margin:auto;
-}
+
 /*------------------------------------------------UPDATE---------------------------------------------------------*/
-#updateParfum{
+#updateFloare{
 	text-align: center;
 }
 .update{
@@ -102,19 +101,18 @@ table{
 textarea{
 	border: medium #85b9e9 double;
 	}
-	#deleteParfumButton{
+	#deleteFloareButton{
 	width:120px;
 	height: 30px;
 }
-#updateParfum form{
+#updateFloare form{
 	text-align: center;
 }
-#updateParfum select{
+#updateFloare select{
 	height: 30px;
 	width:120px;
 	
 }
-/*---------------------------------------insertPromotie--------------------------------*/
 div1{
 padding-left:240px;
 }
@@ -131,14 +129,4 @@ border: medium #85b9e9 double;
 color: #000;
 background: #ffa20f;
 border: 2px outset #d7b9c9
-}
-/*------------------------------------------------------------------------------------*/
-.com{
-	width: 200px;
-	margin: auto;
-}
-.com table{
-	width: 200px;
-	margin: auto;
-	text-align: center;
 }
