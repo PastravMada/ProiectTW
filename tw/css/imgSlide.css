@@ -1,0 +1,113 @@
+body,html{
+min-height: 100%;
+}
+
+
+#categorie1,#categorie2,#categorie3,#categorie4,#categorie5,#categorie6,
+#categorie7, #categorie8,p, body,#theCanvas {
+			width: 70%;
+			height: 100%;
+			margin: 0px;
+			padding: 0px;
+			border: 0;
+			//overflow: hidden; /*  Disable scrollbars */
+			display: block;  /* No floating content on sides */
+		}	
+	#parf1{
+	
+	font-family:Goudy Old Style;
+	font-size:300%;
+	text-align:center;
+	 color: #FFEBCD;
+    text-shadow: 2px 2px 8px #CC3333;
+	}
+	
+	#parf2{
+	
+	font-family:Goudy Old Style;
+	font-size:300%;
+	text-align:center;
+	 color: #8B0000;
+    text-shadow: 2px 2px 8px #DC143C;
+	
+	}
+	
+	#parf3{
+	
+	font-family:Goudy Old Style;
+	font-size:300%;
+	text-align:center;
+	 color: white;
+    text-shadow: 2px 2px 8px #FF4500 ;
+	
+	}
+	
+	#parf4{
+	
+	font-family:Goudy Old Style;
+	font-size:300%;
+	text-align:center;
+	 color: #330000;
+    text-shadow: 2px 2px 8px #006633 ;
+	
+	}
+	
+	#parf5{
+	
+	font-family:Goudy Old Style;
+	font-size:300%;
+	text-align:center;
+	 color: #330000;
+    text-shadow: 2px 2px 8px #006633 ;
+	
+	}
+	
+	#parf6{
+	
+	font-family:Goudy Old Style;
+	font-size:300%;
+	text-align:center;
+	 color: #330000;
+    text-shadow: 2px 2px 8px #006633 ;
+	
+	}
+
+	#parf7{
+	
+	font-family:Goudy Old Style;
+	font-size:300%;
+	text-align:center;
+	 color: #330000;
+    text-shadow: 2px 2px 8px #006633 ;
+	
+	}
+	
+	#parf8{
+	
+	font-family:Goudy Old Style;
+	font-size:300%;
+	text-align:center;
+	 color: #330000;
+    text-shadow: 2px 2px 8px #006633 ;
+	
+	}
+.wrap {
+position:relative;
+ clear:none;
+ overflow:hidden;
+}
+	
+.wrap img {
+	  position:relative;
+	  z-index:1;}
+	  
+.wrap .desc {
+	  display:block;
+	  position:absolute;
+	  width:100%;
+	  height:30%;
+	  top:30%;
+	  left:0;
+	  z-index:2;
+	  text-align:center;
+	}
