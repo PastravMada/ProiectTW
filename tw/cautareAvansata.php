@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/generareFlori.css">
 	<script src="functions.js" type="text/javascript"></script>
 </head>
-<body>
+<body background="back1.jpg">
 	<?php include('Incluziuni/header.php');include('Incluziuni/aside.php');?>
     <article id="generareFlori">	
 			<?php
