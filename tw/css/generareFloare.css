@@ -6,7 +6,7 @@ h2{
 	display: block;
 	position:	relative;
 	float:		right;
-	width:		840px;
+	width:		860px;
 	overflow:	hidden;
 	margin:		60px;
 	margin-left: 20px;
@@ -32,13 +32,21 @@ h4{
 .image{	
 	margin:0;
 	border:0;
-	width:370px;
+	width:400px;
 	height:300px;
 	border: 0px none currentColor;
+	margin-left: 240px;
 }
-.image:hover{
-	width: 400px;
-	height: 320px;
+
+.smallImage{	
+	width:90px;
+	height:65px;
+	border: 5px solid gray;
+}
+#div1{
+   display: inline-block;
+   width:400px;
+   margin-left: 240px;
 }
 .tot{
 	display: inline-block;
@@ -68,8 +76,8 @@ h4{
 }
 .detalii{
 	margin: 0;
-	margin-top: 380px;
-	margin-left: 30px;
+	margin-top: 40px;
+	margin-left: 40px;
 }
 
 h3{
@@ -119,4 +127,12 @@ form{
 	border: 1px solid black;
 	margin-bottom: 10px;
 	background-color:white;
+}
+.image
+{
+    transition: -webkit-transform 0.75s ease;
+}
+
+.image:hover {
+    -webkit-transform: scale(2);
 }

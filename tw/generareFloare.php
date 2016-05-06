@@ -13,6 +13,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
 	<link rel="stylesheet" type="text/css" href="Incluziuni/incluziuni.css">
 	<link rel="stylesheet" type="text/css" href="css/generareFloare.css">
+	<script src="oneFlower.js"></script>
 </head>
 <body background="back1.jpg">
 	<?php include('Incluziuni/header.php');?>
@@ -53,8 +54,18 @@
 				    $descriere=oci_result($stid2, 'DESCRIERE');
 				}
 				echo "<h2 style='background-color:#BDB76B;color:black;padding-left:20px;'>".$denumirePopulara."</h2>";
-				echo "<div class='in'><p style='font-size:100%;color:red;margin-left: 10px;'><img class='image' align='left' src='".$imagini."'/>".$descriere."</p></div>";
-				echo "<div style='background:;'class='detalii'><b>Denumire stiintifica: </b>".$denumireStiintifica;
+				echo "<div class='in'><img class='image' id='bigImg' align='centre' src='".$imagini."'/></div>";
+				
+				echo "<div id='div1'>";
+				echo "<img class='smallImage' src='flower.png' onclick='changeImage(this.src)'/>";
+				echo "<img class='smallImage' src='back1.jpg'  onclick='changeImage(this.src)'/>";
+				echo "<img class='smallImage' src='bee.png' onclick='changeImage(this.src)'/>";
+				echo "<img class='smallImage' src='back1.jpg' onclick='changeImage(this.src)'/>";
+				echo "</div>";
+				
+				echo "<div style='background:;'class='detalii'>";
+				echo "<br><br><b></b>".$descriere;
+				echo "<br><br><br><b>Denumire stiintifica: </b>".$denumireStiintifica;
 				echo "<br><br><b>Origine:</b> ".$origine;
 				echo "<br><br><b>Localizare: </b>".$localizare;
 				echo "<br><br><b>Caracteristici: </b>".$caracteristici;
@@ -65,19 +76,21 @@
 				echo "<br><br><b>Soiuri inrudite: </b>".$soiuriInrudite;
 				echo "<br><br><b>Culoare: </b>".$culoare;
 				echo "<br><br><b>Temperatura: </b>".$temperatura;
-				echo "<br><br><b>Anotimp: </b>".$anotimp;
-				echo "<br><br><b> English : </b>".$descriereEngleza;
+				echo "<br><br><b>Anotimp: </b>".$anotimp;				
+				echo "<br><br><a id='en' href='#' onclick='descriere1()'><b>English description</b></a>";
+				echo "<br><span id='engl'></span>";
+				echo "<br><br><a href='#' ><b>Description en Francais </b></a>";
 				echo "</div>";
 				
 				?>
 		</article>
 		
 		<article id="comentarii">
-				<?php 
-				echo '<form action="back-end/comentarii-back-end.php?id='.$id .'" method="post">';?>
-					<textarea style="resize:none;" cols="50" rows="5" name="comentariu"></textarea>
-					<input id="submit" type="submit" value="Trimite"/> 
-				<?php	echo '</form>'; ?>
+			<?php 
+			echo '<form action="back-end/comentarii-back-end.php?id='.$id .'" method="post">';?>
+				<textarea style="resize:none;" cols="50" rows="5" name="comentariu"></textarea>
+				<input id="submit" type="submit" value="Trimite"/> 
+			<?php	echo '</form>'; ?>
 			<?php
 			$sql4='SELECT u.ID_USER,COMENTARIU,NUME FROM COMENTARII c,USERI u WHERE c.ID_USER=u.ID_USER AND ID_PLANTA=:id_planta';
 			$stid4=oci_parse($conn, $sql4);
@@ -102,7 +115,7 @@
 			}
 			?>
 			</article>
-				<?php
+		    <?php
 				oci_close($conn);
 			?>
 		
