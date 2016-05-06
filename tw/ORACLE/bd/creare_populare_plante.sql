@@ -12,147 +12,162 @@ CREATE TABLE PLANTE(
 );
 
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(101,1,'Alstroemeria alba','Alstroemeria albescens','Imagini/alstroemeriaAlba.jpg','Descoperita în Columbia în 1894 de Edward Ambre este una dintre cele mai frumoase specii, tulpina are 30-80 cm lungime si poate fi volubila la exemplare vârstnice , ea emite din mugurii de la baza lastari cu radacini mai ales în urma lucrarii de musuroire. Acestia sunt folositi la inmultire. Frunzele sunt cordiforme mari, de 25, 30 cm/15-20cm sunt lung petiolate si colorate verde stralucitor. Radacinile sunt puternice, groase si carnoase. Spata este mare de 8-20cm/8-20cm carnoasa, culoare carmin, roz sau alb, spadicele e drept sau usor curbat lung de 5-6 cm , alb sau galben.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(1,'America','sera','Are nevoie de lumina.','butasi','Imagini/alstroemeriaAlba.jpeg',
+'Miros deosebit ce improspateaza intreaga gradina o perioada lunga de timp.','ghiveci','martie-aprilie','','alba','intre -2 si -5 ','primavara','Smack you around the garden refreshes a long time.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(102,2,'Amarilis','Amaryllis','Imagini/amarilis.jpg','Amaryllis este o planta tropicala de ghiveci, cu bulb, apreciata 
-pentru florile sale colorate divers.Aceasta planta ne va atrage privirile datorita faptului ca are doar o tija cu boboc, sau cu floare,
- si nicio frunza. Uneori nici tija nu i se vede foarte bine, ci doar mugurul carnos al florii care iese din pamânt. ');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(2,'America','sera','Orice tip de sol, cu conditia sa nu fie prea umed. Recomandat a se adauga humus.','bulbi','Imagini/amarilis.jpg','Miros placut.','ghiveci','noiembrie-ianuarie','gladiole','rosie','intre 10 si 15','primavara','Pleasant smell.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(103,3,'Anemone albastre','Anemone coronaria','Imagini/anemoneAlbastre.jpg','Anemona este o planta de  o frumusete aparte; face
- parte din familia Ranculacee si este originara din regiunile montane din jurul Marii Meditenane.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(3,'Europa','campie','Au nevoie de lumina si de un sol umed.','tuberculi','Imagini/anemoneAlbastre.jpg','Durata lunga de viata.','oricare','martie-august',
+'panseluta','albastre','intre 10 si 15','primavara','Long life.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(104,4,'Gerbera','Gerbera jamesonii','Imagini/gerbera.jpg','Gerbera este una dintre cele mai populare flori cultivate pentru taiere, insa ea se poate cultivata 
-atat in gradina cat si ca floare de interior. Este o planta careia ii place foarte mult lumina si este deci potrivita gradinilor insorite 
-si pervazelor orientate pe sud. Se recomanda insa, ca atunci cand vrei sa plantezi in gradina o floare abia cumparata sau care a stat in 
-interior, sa faci o trecere gradata de la semiumbra la soare. Asadar trebuie tinuta un timp intr-un loc semiumbrit. Daca nu are suficienta 
-lumina gerbera nu infloreste. ');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(4,'Africa','campie','Expunere:loc deschis si insorit.','seminte','Imagini/gerbera.jpg','Are tulpini puternice  si flori stralucitoare.','nisipos','februarie-septembrie','',
+'roz','intre 10 ai 15','primavara','Has strong stems and bright flowers .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(105,5,'Cala alba','Zantedeschia aethiopica','Imagini/caleAlba.jpg','Cala este o planta de apa, eleganta. 
-Florile albe rasar maiestuoase deasupra frunzelor mari si lucioase. Floarea este practic o bractee alba, incantatoare! Calele se numara 
-printre cele mai apreciate flori pentru buchete.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(5,'Europa','deal','Solul trebuie sa fie bine drenat, umed.','bulbi','Imagini/caleAlba.jpg','Infloresc pe tulpini ciudate, rotunde,iar fiecare tuber face 10, chiar si 30 de flori.','argilos','martie-septembrie','','alba',
+'intre  10 si 20','primavara','Bloom on stems strange , round , and each tuber is 10 , even 30 flowers.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(106,6,'Menta de gradina','Mentha piperita, Mentha spicata','Imagini/mentaGradina.jpg','Menta este o planta aromatica excelenta atat 
-pentru gradina, cat si pentru cultivarea in ghivece. Aceasta este foarte apreciata pentru mirosul sau placut si puternic, dar si pentru 
-aroma minunata pe care o lasa mancarurilor si bauturilor.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(6,'Europa','campie','Planta ierboasa care creste in culturi.','tuberculi','Imagini/mentaGradina.jpg','Are proprietati medicinale.','nisipos','aprilie-octombrie','',
+'verde','intre 10 si 20','primavara','It has medicinal properties .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(107,7,'Musetel','Matricaria chamomilla','Imagini/musetel.jpg','Musetelul este una dintre cele mai populare plante medicinale. Este o planta ierboasa,
- aromata, raspandita in toate zonele de campie, pe pajisti, la margine de drum, in locuri insorite sau pe terenuri sarate. in unele regiuni din 
- tara mai este cunoscut si sub numele de romanita. Se deosebeste de alte specii asemanatoare prin mirosul aromat al florilor.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(7,'Europa','campie','Are nevoie de multa lumina.','seminte','Imagini/musetel.jpg','Se foloseste pentru ceaiuri.','calcaros','mai-iunie','','alb',
+'intre 20 si 30','primavara','It is used for teas.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(108,8,'Panselute','Viola tricolor','Imagini/panselute.jpg','Panseluta este o floare de origine europeana, care creste în toate
-anotimpurile. A fost introdusa in America de Nord, unde s-a raspandit pe vaste teritorii si este cunoscuta ca Johnny Jump Up (desi numele este folosit pentru a 
-denumi si alte specii similare precum Panseaua galbena). Shakespeare face o referire mai directa la Panseluta in Visul unei nopti de vara. Oberon il trimite
- pe Puck sa adune "o mica floare salbatica" pe care fetele o numeau "Iubire-in-trandavie". Motivul lui Oberon este ca a deviat o sageata trimisa de 
- Cupidon, destinata unei "vestale drepte, încoronata de vestici" (se presupune ca este vorba de Regina Elisabeta I) pentru a cadea peste planta 
- "inainte alba precum laptele, acum purpurie ca rana dragostei"');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(8,'Europa','sera','Nu sunt plante pretentioase','seminte','Imagini/panselute.jpg',
+'Vindeca acneea, calmeaza tusea, reduce inflamatiile, vindeca negii si alte probleme ale pielii','ghiveci','august-septembrie','papadia','galben',
+'intre 10 si 15','vara','Cure acne , soothes coughs , reduce inflammation , heal warts and other skin problems .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(109,9,'Trandafir rosu','Rosa cymosa','Imagini/trandafirRosu.jpg','Trandafirul a fost intotdeauna apreciat pentru frumusetea sa. Vecii greci 
-si romani au vazut in trandafir simbolul iubirii si astfel l-au asociat cu zeitele protectoare Afrodita respectiv Venus. De altfel stim si noi ca 
-trandafirul rosu exprima pasiunea si sunt oferiti doar celei iubite. Dar trandafirul nu este doar expresia dragostei. Tot in Roma un trandafir salbatic 
-era pus pe masa camerei in care se discutau lucruri secrete. De altfel termenul “sub rosa”, sau “sub semnul trandafirului” inseamna un secret de pastrat.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(9,'Europa','campie','Plantarea se face intr-un loc insoris si uscat.','butasi','Imagini/trandafirRosu.jpg',
+'Mirosul puternic si placut, folosit in produsele cosmetice.','oricare','februarie-martie','trandafir','rosie','intre 20 si 30','vara','The strong smell and pleasant, used in cosmetics ');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(110,10,'Trandafir albastru','Rosa setigera','Imagini/trandafirAlbastru.jpg','Este mult mai rar, insa nu este atat de albastru ca cel obtinut prin 
-colorare artificiala. Se spune ca ar fi fost adus din Asia de catre Alexandru cel Mare, insa e imposibil de gasit in prezent. Expertii japonezi au reusit
- sa creeze genetic un soi de trandafir albastru, care insa e mai mult spre mov, pastrand numele de trandafir albastru numai pentru ca s-a folosit pigment 
- albastru in procesul de prelucrare.');
- 
- INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(111,11,'Stanjenel','Iris','Imagini/stanjenel.jpeg','Florile sunt doar puţin parfumate, prezinta trei petale orientate in jos si trei in sus, iar sub petale apar trei stamine si un ovar.
-Stanjenelul se cultiva atat ca planta medicinala cat si decorativa, dar se foloseste si in industria de parfumuri si cosmetica.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(10,'Europa','campie','Plantarea se face intr-un loc insoris si uscat.','butasi','Imagini/trandafirAlbastru.jpg',
+'Mirosul puternic si placut, folosit in produsele cosmetice.','oricare','februarie-martie','trandafir','albastru','intre 20 si 30','vara','The strong smell and pleasant, used in cosmetics ');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(112,12,'Narcisa','Narcissus','Imagini/narcisa.jpg','In limbajul florilor, narcisa exprima prietenia, bucuria, vacanta. Este considerata o floare a copiilor si a adolescentei. Se daruieste la nasterea unui copil, simbolizand bucuria de a intampina o noua viata. Ca floare a dragostei, narcisa exprina sinceritatea. ');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(11,'Africa','campie','Are un rizom gros, cu miros de iarbă, din care porneşte tulpina înaltă şi frunzele lanceolate','bulbi','Imagini/stanjenel.jpg',
+'Proprietati terapeutice','nisipos','februarie-martie','','albastru','intre 5 si 9','iarna','Therapeutic properties');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(113,13,'Muscate Englezesti','Geranium','Imagini/muscataEnglezeasca.jpg','Florile plantei sunt mari si au un aspect elegant, de unde si denumirea de muscata englezeasca.In general, aceste muscate sunt disponibile in nuante multiple, de la alb si crem, la violet si lila. Petalele au un aspect usor catifelat.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(12,'Africa','campie','Bulbii sunt otravitori','bulbi','Imagini/narcisa.jpg',
+'Proprietati terapeutice','argilos','martie-aprilie','','galbena','intre 15 si 19','primavara','Therapeutic properties');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(114,14,'Muscate Curgatoare','Pelargonium','Imagini/muscataCurgatoare.jpg','De la inceputul primaverii si pana toamna tarziu, muscatele curgatoare infrumuseteaza balcoanele si terasele iubitorilor de natura. Aceste plante se bucura de aprecierile generale datorita faptului ca infloresc in permanenta si din abundenta, au flori intr-o paleta coloristica variata si sunt usor de intretinut..');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(13,'Africa','campie','Solul care ii prieste cel mai bine este pamantul de gradina si locurile umbroase','bulbi','Imagini/MuscataEnglezeasca.jpg',
+'Creste armonios si va inflori ca nicio alta planta dintre cele pe care le ai deja.','calcaros','februarie-septembrie','','roz','intre 25 si 29','vara','Grow harmoniously and that no other plant will bloom of the ones you already have .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(115,15,'Lalea Roz','Tulipa','Imagini/laleaRoz.jpg','Perfecte pentru prieteni si rude, lalelele roz simbolizeaza afectiuni si sentimente puternice, dar nu romantice.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(14,'Africa','campie',' Sunt foarte sensibile la frig.','bulbi','Imagini/MuscataCurgatoare.jpg',
+'Creste armonios si va inflori ca nicio alta planta dintre cele pe care le ai deja.','calcaros','februarie-septembrie','','rosie','intre 25 si 29','vara','Grow harmoniously and that no other plant will bloom of the ones you already have .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(116,16,'Lalea Rosie','Tulipa','Imagini/laleaRosie.jpg','Dragostea simbolizata de laleaua rosie este una puternica, care te mistuie. Daca vrei sa-ti exprimi sentimentele foarte puternice, care crezi ca sunt nepieritoare, aceasta culoare este perfecta.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(15,'Asia','deal','Sunt plante usor de cultivat','bulbi','Imagini/laleaRoz.jpg',
+'Forma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.','nisipos','martie-aprilie','lalea','roz','intre 15 si 10','primavara','Cupped, vibrant colors and elegance are some of the traits of this plant.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(117,17,'Lalea Alba','Tulipa','Imagini/laleaAlba.jpg','La fel ca si alte flori albe, laleaua de aceasta culoare reprezinta puritate, dar insemnatatea sa include si respect. Din acest motiv, un buchet de lalele albe este ideal atunci cand vrei sa-ti ceri scuze pentru o greseala.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(16,'Asia','deal','Sunt plante usor de cultivat','bulbi','Imagini/laleaRosie.jpg',
+'Forma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.','nisipos','martie-aprilie','lalea','rosie','intre 15 si 10','primavara','Cupped, vibrant colors and elegance are some of the traits of this plant.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(118,18,'Lalea Albastra','Tulipa','Imagini/laleaAlbastra.jpg','.Lalelele reprezinta constanta si trainicia sentimentelor in ciuda diferitelor obstacole intalnite. Pentru crestini ea reprezinta vanitatea. Avand o frumusete trecatoare,lalelele pot simboliza si autoamagirea, ignorarea realitatii, iluzia, incapatanarea.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(17,'Asia','deal','Sunt plante usor de cultivat','bulbi','Imagini/laleaAlba.jpg',
+'Forma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.','nisipos','martie-aprilie','lalea','alb','intre 15 si 10','primavara','Cupped, vibrant colors and elegance are some of the traits of this plant.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(119,19,'Gladiola','Gladiolus','Imagini/gladiola.jpg','Gladiola , nume care se trage din latinescul "sabie", este o planta perena care se inmulteste prin bulbi, , din familia Iridaceae. Uneori denumita si "crinul sabie", cel mai folosit nume pentru aceasta planta ramane totusi, gladiola.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(18,'Asia','deal','Sunt plante usor de cultivat','bulbi','Imagini/laleaAlbastra.jpg',
+'Forma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.','nisipos','martie-aprilie','lalea','albastru','intre 15 si 10','primavara','Cupped, vibrant colors and elegance are some of the traits of this plant.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(120,20,'Garoafa rosie','Dianthus Caryophyllus','Imagini/garoafaRosie.jpg','Garoafele sunt un gen de plante care infloreste anual, de doua ori pe an sau in continuu. Garoafa are frunze ascutite, lanceolate, de culoare gri-verzui, asezate de-a lungul tulpinii; frunzele se intorc usor in afara. Florile pot fi parfumate, simple sau duble, de mai multe culori. Exista multi hibrizi de garoafa care nu au parfum, dar au o varietate mai mare de culori..');
- 
- INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(121,21,'Craciunita','Euphorbia pulcherrima','Imagini/craciunita.jpeg','Craciunita este una dintre plantele de apartament cel mai usor de ingrijit si, poate de aceea, una dintre cele mai des intalnite in apartamentele noastre. Planta este recunoscuta de toata lumea ca fiind singura planta cu proprietatea ei de a-si schimba culoarea frunzelor in rosu in preajma Craciunului.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(19,'Europa','campie','Sunt plante care nu rezista la frig.','bulbi','Imagini/gladiola.jpg',
+'Au petalele dantelate sau franjurate.','calcaros','iunie-august','','rosie','intre 15 si 10','vara','There are plants that withstand the cold.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(122,22,'Begonia','Begonia','Imagini/begonia.jpg','Este o planta romantica, potrivita atat intr-un mediu rustic, cat si in spatiile moderne, unde rotunjimile sale atenueaza liniile uneori prea rigide.Florile sale sunt variat colorate, de la rosu, galben, portocaliu, roz pana la alb sau degradeuri..');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(20,'America','deal','Este o planta care are nevoie de soare din plin si trebuie udata la anumite intervale de timp.','butasi','Imagini/garoafaRosie.jpg',
+'Florile pot fi parfumate, simple sau duble, de mai multe culori.','argilos','octombrie-martie','','rosie','intre -5 si 10','iarna','Fragrant flowers can be single or double , multiple colors.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(123,23,'Trandafir Galben','Rosa rugosa luteus','Imagini/trandafirGalben.jpg','Desi culoarea galbena este adesea asociata cu stari de bucurie si fericire luminoasa, nu a fost intotdeauna asa. Din Evul Mediu pana in timpul epocii victoriene popoarele din Europa considerau culoarea galbena un simbol al vietii pline de neplaceri. Potrivit "limbajului florilor", amaraciunea, invidia si tradarea erau toate calitati care puteau fi "citite" in oferirea de trandafiri galbeni. In context romantic, un buchet de trandafiri galbeni trimis dupa o prima intalnire era un semn ca expeditorul nu se afla in cautarea unui atasament de durata..');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(21,'Europa','sera','Este preferat sa mentineti doar pamantul umed.','seminte','Imagini/craciunita.jpg',
+'Planta are proprietatea de a-si schimba culoarea frunzelor in rosu in preajma Craciunului.','ghiveci','decembrie-februarie','','rosie','intre -5 si 9','iarna','The plant has the ability to change color red leaves around Christmas .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(124,24,'Crin','Lilium','Imagini/crin.jpg',' Aceasta planta are flori mari, parfumate, de diverse culori si cu un miros imbatator.In functie de specie si mirosul crinilor difera, unele avand un miros mai intens, care se mentine mai mult timp, altele neavand niciun fel de parfum.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(22,'Europa','sera','Necesita amplasare intr-un spatiu luminos, ferita de razele soarelui','bulbi','Imagini/begonia.jpg',
+'Recunoscute pentru frumusetea florilor delicate care seamana foarte bine cu trandafiri miniaturali.','ghiveci','ianuarie-deccembrie','','portocalie','intre 20 si 25','vara','Known for delicate beauty of flowers that looks very much like miniature roses .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(125,25,'Iasomie','Jasminum','Imagini/iasomie.jpg','Cunoscuta in India sub denumirea de "regina florilor", iasomia este considerata nu numai o planta decorativa, ci si un remediu impotriva stresului si a altor tulburari nervoase..');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(23,'Europa','campie','Plantarea se face intr-un loc insoris si uscat.','butasi','Imagini/trandafirGalben.jpg',
+'Mirosul puternic si placut, folosit in produsele cosmetice.','nisipos','februarie-martie','trandafir','galben','intre 20 si 30','vara','');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(126,26,'Ghiocel','Galanthus','Imagini/ghiocel.jpg','Ghioceii sunt vestitorii primaverii. Cand vedem capetele mici, albe si deliate ale ghioceilor iesind din zapada stim ca iarna este pe sfarsite si putem exclama plini de bucurie ca primavara va sosi aducand prospetime si voiosie in sufletele noastre..');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(24,'Europa','sera','Apa din vazele cu crini trebuie schimbata zilnic .','seminte','Imagini/crin.jpg',
+'Flori foarte puternic parfumate, este bine sa fie scoase din camera de locuit.','ghiveci','ianuarie-decembrie','','alb','intre 15 si 29','vara','Very strongly scented flowers , it is good to be removed from the living room .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(127,27,'Ciclama','Cyclamen persicum','Imagini/ciclama.jpg','Creştere compactă, flori frumoase răsfrânte spre spate, pe tulpini lungi şi frunze decorative cu desene argintii şi verzi.Florile au culori strălucitoare sau nuanţe pastel, sunt mari şi frapante sau mici şi parfumate.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(25,'Europa','campie','Mirosul florilor de iasomie este un adevărat medicament!','butasi','Imagini/iasomie.jpg',
+'Proprietati terapeutice','oricare','iunie-august','','alb','intre 25 si 30','vara','Therapeutic properties');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(128,28,'Camelie','Camellia','Imagini/camelia.jpg','Camelia este un arbust originar din Japonia cu frunze persistente, de forma ovala, usor zimtate pe margini, de culoare verde-inchis, lucioase pe fata superioara. Florile solitare sau cate doua, sunt asemantoare cu florile de trandafir, dar fara miros.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(26,'Europa','munte','Planta are nevoie de umezeala si de racoare.','bulbi','Imagini/ghiocei.jpg',
+'Floarea albă este actinomorfă, bisexuată, are șase petale.','calcaros','februarie-martie','','alb','intre -5 si 9','iarna','Actinomorfe white flower is bisexual , it has six petals .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(129,29,'Papadie','Taraxacum officinale','Imagini/papadia.jpg','.Papadia este o planta erbacee din familia compozitelor, cu frunze lungi, crestate si cu flori galbene grupate in capitule. Mai este numita si buha, cicoare, crestațea, laptuca, lilicea, mața, papalunga, pilug, turci, curu-gainii, floarea-broastei, floarea-gsinii, floarea-mslaiului, floarea-sorului, floarea-turcului, flori-galbene, galbinele-grase, gusa-gainii, ouale-gainilor, papa-gainii, parasita-gainilor sau pui-de-gasca.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(27,'Asia','sera','Vara, ele trebuie udate abundenta.','tuberculi','Imagini/ciclama.jpg',
+'Florile au culori strălucitoare sau nuanţe pastel, sunt mari şi frapante sau mici şi parfumate.','ghiveci','februarie-mai','','roz','intre 10 si 20','primavara','The flowers have bright colors or pastel shades , large and small striking or scented .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(130,30,'Petunie','Petunia hybrida','Imagini/petunia.jpg','Petunia este una dintre cele mai populare si indragite flori pentru decor. In nenumarate culori, precum alb, galben, roz, rosu, albastru sau violet, floarea de petunie este in forma de trompeta , cu marginea ondulata sau franjuri.');
- 
- INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(131,31,'Brandusa','Crocus vernus','Imagini/brandusa.jpeg','Brandusa de toamna este o planta medicinala care creste pe pasuni, fanete umede an zona de deal sau munte, care poate atinge chiar si inaltimea de 50 cm. Florile au culoare violet-purpurie. Brandusa infloreste in luna septembrie, iar fructele se formeaza in al doilea an.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(28,'Europa','campie','Floarea trebuie să  stea într-un loc aerisit, uşor umbrit, ferit de soare','butasi','Imagini/camelia.jpg',
+'Există numeroase varietăţi ale acestei flori, ce au aspectul unui trandafir.','nisipos','mai-august','','roz','intre 15 si 19','primavara','There are many varieties of this flower that look like a rose .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(132,32,'Crizantema','Chrysanthemum','Imagini/crizantema.jpg','Specifică toamnei, crizantema se gaseste sub formele cele mai diverse, de la tufele pitice pana la cele de un metru inaltime, cu flori care acopera aproape toata gama de culori cunoscuta, cu dimensiuni si forme dintre cele mai variate, de la simple la duble, involte (batute), stelate, globuloase etc.Toate au acel parfum minunat, inconfundabil, care ne anunta ca a venit toamna.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(29,'Toate','campie','Perioada cea mai bună pentru a recolta păpădia este primăvara.','seminte','Imagini/papadia.jpg',
+'Rădăcina şi frunzele sunt bogate în fructoză şi insulină.','argilos','aprilie-mai','','galben','intre 15 si 19','primavara','The root and leaves are rich in fructose and insulin.');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(133,33,'Liliac','Syringa vulgaris','Imagini/liliac.jpg','Supranumit "floarea memoriei", oamenii spun ca mirosul sau trezeste amintiri de mult uitate, care pot fi retraite in amanunt. Liliacul semnifica misterul iubirii, care poate face ca o persoana sa uite de sine in dragostea pentru altul. De aceea, in functie de culorile sale, liliacul poate sa transmita mesaje de dragoste sau sentimente prietenesti.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(30,'America','campie','Aceste plante au nevoie de pamant fertilizat cu substante organice.','seminte','Imagini/petunia.jpg',
+'Este o planta decoratica cu un parfum puternic si placut iar aspectul lor este destul de firav.','oricare','mai-octombrie','','mov','intre 15 si 19','vara','It is a decorative plant with a strong and pleasant fragrance and their appearance is quite frail .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(134,34,'Lacramioara','Convallaria majalis','Imagini/lacramioara.jpg','Florile sunt albe (rareori roz pal), au forma de clopotei, masoara 5-10 mm in diametru si au un parfum imbietor. Planta infloreste de la inceputul primaverii pana la inceputul verii.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(31,'Asia','munte','Preferă un sol bine drenat, în locuri însorite sau la umbra copacilor și arbuștilor','bulbi','Imagini/brandusa.jpg',
+'Este o planta medicinala.','oricare','martie-aprilie','','mov','intre 10 si 20','primavara','It is a medicinal plant .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(135,35,'Frezie','Freesia','Imagini/frezia.jpg','Plante delicate și parfumate, freziile sunt folosite în diverse aranjamente florale, singure, în asociere cu frunze proprii, in asociere cu Asparagus sau combinate cu alte specii de flori sau ramuri înflorite.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(32,'America','deal','Sensibilă la durată de iluminare.De asemenea, este sensibilă si la temperaturile extreme.','bulbi','Imagini/crizantema.jpg',
+'Au florile cu dimensiuni şi forme dintre cele mai variate, de la simple la duble, involte .','nisipos','martie-mai','','galbena','intre 10 si 15','primavara','Have flowers with sizes and shapes of the most varied , from simple to double abundant .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(136,36,'Minirosa','Rosa chinensis minima','Imagini/minirosa.jpg','Trandafirii pitici sunt versiuni la scara redusa a trandafirilor obisnuiti, si desi variaza in multe feluri, toti au flori micute, uneori parfumate.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(33,'Europa','deal','Poate atinge pana la 4 metri inaltime.','butasi','Imagini/liliac.jpg',
+'Ofera un spectacol imbatator si colorat.','nisipos','aprilie-mai','','alb','intre 15 si 19','primavara','It offers a heady and colorful show .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(137,37,'Orhidee','Orchidaceae','Imagini/orhideea.jpg',' Este o planta perena si exista anumite specii capabile sa absoarba din apa mediului in care se afla substantele necesare supravietuirii. Nu e de mirare ca radacinile ei nu se gasesc in totalitate in pamant, ci si in afara recipientului in care creste.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(34,'Europa','munte','Este o planta cultivata pentru frumusetea florilor si parfumul acestora.','bulbi','Imagini/lacramioara.jpg',
+'Este folosita ca hrana pentru larvele unor fluturi si molii.','argilos','martie-aprilie','','alb','intre 10 si 15','primavara','It is used as food for the larvae of butterflies and moths .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(138,38,'Zambila','Hyacinthus orientalis','Imagini/zambila.jpg','Bulbul de zambila produce un spic dens, compact de flori, de 15-30 cm inaltime. Zambile sunt foarte parfumate, in forma de clopotei, cu petale de flori refletate. Spicul dens de flori vine in nuante de alb, portocaliu, galben, roz, rosu, violet si albastru.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(35,'Europa','munte','Sunt cultivate intr-un loc aerisit care sa beneficieze de multa lumina iar  solul este afanat si bine drenat','bulbi','Imagini/frezia.jpg',
+'Sunt apreciate pentru parfumul si aspectul lor delicat.','argilos','februarie-mai','','galben','intre 15 si 20','primavara','They are prized for their delicate scent and appearance .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(139,39,'Bujor','Paeonia','Imagini/bujor.jpg','In vechime, bujorii erau folositi pentru tratarea unei mari varietati de afectiuni , precum dureri de dinti, dureri de cap sau anchiloze. Se spunea ca aceste flori ar putea oferi protectie impotriva unor posesiuni demonice sau a deochiului , ele fiind amplasate de-a lungul drumului catre usa de intrare a caselor.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(36,'Europa','sera','Plantarea se face intr-un loc insoris si uscat.','butasi','Imagini/minirosa.jpg',
+'Mirosul puternic si placut, folosit in produsele cosmetice.','ghiveci','februarie-martie','trandafir','roz','intre 20 si 30','vara','The strong smell and pleasant, used in cosmetics .');
 
-INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(140,40,'Nufar','Nuphar','Imagini/nufar.jpg','Nufarul alb este o planta erbacee perenă, ocrotita de lege, intalnita in ape stagnante sau lin curgatoare si adanci pana la 2 metri.Florile sunt albe, mari, cu un miros dulce si cu circa 20 de petale.');
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(37,'Europa','sera','Este foarte sensibila la schimbarile bruste de temperatura,','bulbi','Imagini/orhideea.jpg',
+'Florile rezista luni la rand.','ghiveci','mai-octombrie','','alb','intre 15 si 20','primavara','Flowers resist months in a row .');
+
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(38,'Europa','munte','Zambila in ghiveci nu are nevoie de altceva decat de apa','bulbi','Imagini/zambila.jpg',
+'O zambila inflorita, cu bulbul fixat in solul din ghiveci, poate sa tina si cateva saptamani.','ghiveci','mai-august','','roz','intre 15 si 19','primavara','A blooming hyacinth with bulb fixed in the soil of potted may take a few weeks.');
+
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(39,'Asia','deal','Floarea isi schimba culoarea de cand se deschide si pana se scutura.','bulbi','Imagini/bujor.jpg',
+'Erau folositi pentru tratarea unei mari varietati de afectiuni.','calcaros','mai-august','','roz','intre 15 si 20','primavara','They were used to treat a wide variety of ailments.');
+
+INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza) VALUES(40,'Europa','delta','Creste in apele statatoare si lin curgatoare.','seminte','Imagini/nufar.jpg',
+'Florile sunt frecvent aromate, au petalele de culori diferite asezate pe mai multe randuri..','mlastinos','mai-august','','alb','intre 5 si 10','primavara','The flowers are often fragrant petals of different colors are arranged in several rows.');
