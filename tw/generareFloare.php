@@ -65,6 +65,12 @@
 				
 				echo "<div style='background:;'class='detalii'>";
 				echo "<br><br><b></b>".$descriere;
+				echo "<br><br>";
+				echo "<div class='tooltip'><b>English description</b>";
+				echo "<span class='tooltiptext'>'".$descriereEngleza."'</span></div>";
+				echo "<br>";
+				echo "<div class='tooltip'><b>Description en Francais</b>";
+				echo "<span class='tooltiptext'>'Tres belle'</span></div>";
 				echo "<br><br><br><b>Denumire stiintifica: </b>".$denumireStiintifica;
 				echo "<br><br><b>Origine:</b> ".$origine;
 				echo "<br><br><b>Localizare: </b>".$localizare;
@@ -77,9 +83,6 @@
 				echo "<br><br><b>Culoare: </b>".$culoare;
 				echo "<br><br><b>Temperatura: </b>".$temperatura;
 				echo "<br><br><b>Anotimp: </b>".$anotimp;				
-				echo "<br><br><a id='en' href='#' onclick='descriere1()'><b>English description</b></a>";
-				echo "<br><span id='engl'></span>";
-				echo "<br><br><a href='#' ><b>Description en Francais </b></a>";
 				echo "</div>";
 				
 				?>
@@ -89,7 +92,7 @@
 			<?php 
 			echo '<form action="back-end/comentarii-back-end.php?id='.$id .'" method="post">';?>
 				<textarea style="resize:none;" cols="50" rows="5" name="comentariu"></textarea>
-				<input id="submit" type="submit" value="Trimite"/> 
+				<input id="submit" type="submit" value="Adauga"/> 
 			<?php	echo '</form>'; ?>
 			<?php
 			$sql4='SELECT u.ID_USER,COMENTARIU,NUME FROM COMENTARII c,USERI u WHERE c.ID_USER=u.ID_USER AND ID_PLANTA=:id_planta';
