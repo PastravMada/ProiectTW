@@ -4,6 +4,8 @@
 	<link rel="shortcut icon" type="image/x-icon" href="" />
 	<link rel="stylesheet" type="text/css" href="IncluziuniAdmin/incluziuniAdmin.css">
 	<link rel="stylesheet" type="text/css" href="admin.css">
+	<link rel="stylesheet" href="cssMenu/layout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="cssMenu/menu.css" type="text/css" media="screen">
 	<script src="functionsAdmin.js"></script>
 </head>
 <body>

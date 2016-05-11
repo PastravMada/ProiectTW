@@ -36,7 +36,8 @@ $conn=oci_connect("mihaela","veronica","localhost/XE");
 						$denumireStiintifica=oci_result($stid2, 'DENUMIRESTIINTIFICA');
 						$descriere=oci_result($stid2, 'DESCRIERE');
 						
-						fputcsv($fp,array($denumirePopulara, $denumireStiintifica, $origine, $localizare, $inmultire, $anotimp, $culoare, $soiuriInrudite, $regimDezvoltare),",");
+						fputcsv($fp,array($denumirePopulara, $denumireStiintifica, $origine, $localizare, $caracteristici, $inmultire, 
+								$beneficii, $regimDezvoltare, $perioadaCultivare, $soiuriInrudite, $culoare, $temperatura, $anotimp ),",");
 						}
 				}
 fclose($fp);

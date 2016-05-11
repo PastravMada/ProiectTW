@@ -5,21 +5,24 @@
 
 ?>
 <header>
-	<img class="displayed" src="imagini/banner1.png" width="1400" height="200"  alt="">
-	<?php if(!isset($username)){?>
-		<div class="login"><a href="login.php">Login</a></div>
-	<?php }else {?>
-		<div class="login"><a href="logout.php">Logout</a></div>
-		<?php } ?>
+
 </header>
-<nav class="menu">
-	<ul class="nav-fade">
-			<li><a href="../index.php">Home</a></li>
+<div class="container">
+    <div class="content">
+		<ul id="nav">
+		<li><a href="../index.php">Home</a></li>
 			<li><a href="admin.php">Home Admin</a></li>
 			<li><a href="">Add admin</a></li>
 			<li><a href="insertPlanta.php">Insert</a></li>
 			<li><a href="">Update</a></li>
 			<li><a href="">Delete</a></li>
-			<li><a href="rapoarte.php">Rapoarte</a></li>
+			<li><a href="rapoarte.php">Raport</a></li>
+			
+			<?php if(!isset($username)){?>
+				<li><a href="index.php">Login</a></li>
+				<?php }else {?>
+				<li align="right"><a href="logout.php">Logout</a></li>
+			<?php } ?>
 		</ul>
-</nav>
+	</div>
+</div>

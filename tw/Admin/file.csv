@@ -1,10 +1,42 @@
-"Alstroemeria alba","Alstroemeria albescens","America de Sud","teren inchis","divizare rizomi",primavara,alba,martie-aprilie,"miros deosebit ce improspateaza intreaga gradina o perioada lunga de timp"
-Amarilis,Amaryllis,"America Centrala si de Sud",ghiveci,bulbi,primavara,rosu,noiembrie-ianuarie,ghiveci
-"Anemone albastre","Anemone coronaria",vvv,vvv,vvv,primavara,vvv,vvv,vvv
-Gerbera,"Gerbera jamesonii","Africa de Sud",vvv,vvv,iarna,vvv,vvv,vvv
-"Cala alba","Zantedeschia aethiopica",vvv,vvv,vvv,toamna,vvv,vvv,vvv
-"Menta de gradina","Mentha piperita, Mentha spicata",Europa,vvv,vvv,primavara,vvv,vvv,vvv
-Musetel,"Matricaria chamomilla",vvv,vvv,vvv,toamna,vvv,vvv,vvv
-Panselute,"Viola tricolor",Europa,"rasad ,sere","butasi, seminte",vara,galben,"patlagina, papadie",vvv
-"Trandafir rosu","Rosa cymosa",Grecia,"gradina ,sera","seminte, butasi, altoire",vara,rosu,"trandafiri roz, trandafiri albi",vvvv
-"Trandafir albastru","Rosa setigera",Asia,"gradina ,sera","seminte, butasi, altoire",iarna,albastru,"trandafiri rosii, trandafiri albi",vvv
+"Alstroemeria alba","Alstroemeria albescens",America,sera,"Are nevoie de lumina.",butasi,"Miros deosebit ce improspateaza intreaga gradina o perioada lunga de timp.",ghiveci,martie-aprilie,,alba,"intre -2 si -5 ",primavara
+Amarilis,Amaryllis,America,sera,"Orice tip de sol, cu conditia sa nu fie prea umed. Recomandat a se adauga humus.",bulbi,"Miros placut.",ghiveci,noiembrie-ianuarie,gladiole,rosie,"intre 10 si 15",primavara
+"Anemone albastre","Anemone coronaria",Europa,campie,"Au nevoie de lumina si de un sol umed.",tuberculi,"Durata lunga de viata.",oricare,martie-august,panseluta,albastre,"intre 10 si 15",primavara
+Gerbera,"Gerbera jamesonii",Africa,campie,"Expunere:loc deschis si insorit.",seminte,"Are tulpini puternice  si flori stralucitoare.",nisipos,februarie-septembrie,,roz,"intre 10 ai 15",primavara
+"Cala alba","Zantedeschia aethiopica",Europa,deal,"Solul trebuie sa fie bine drenat, umed.",bulbi,"Infloresc pe tulpini ciudate, rotunde,iar fiecare tuber face 10, chiar si 30 de flori.",argilos,martie-septembrie,,alba,"intre  10 si 20",primavara
+"Menta de gradina","Mentha piperita, Mentha spicata",Europa,campie,"Planta ierboasa care creste in culturi.",tuberculi,"Are proprietati medicinale.",nisipos,aprilie-octombrie,,verde,"intre 10 si 20",primavara
+Musetel,"Matricaria chamomilla",Europa,campie,"Are nevoie de multa lumina.",seminte,"Se foloseste pentru ceaiuri.",calcaros,mai-iunie,,alb,"intre 20 si 30",primavara
+Panselute,"Viola tricolor",Europa,sera,"Nu sunt plante pretentioase",seminte,"Vindeca acneea, calmeaza tusea, reduce inflamatiile, vindeca negii si alte probleme ale pielii.",ghiveci,august-septembrie,papadia,galben,"intre 10 si 15",vara
+"Trandafir rosu","Rosa cymosa",Europa,campie,"Plantarea se face intr-un loc insoris si uscat.",butasi,"Mirosul puternic si placut, folosit in produsele cosmetice.",oricare,februarie-martie,trandafir,rosie,"intre 20 si 30",vara
+"Trandafir albastru","Rosa setigera",Europa,campie,"Plantarea se face intr-un loc insoris si uscat.",butasi,"Mirosul puternic si placut, folosit in produsele cosmetice.",oricare,februarie-martie,trandafir,albastru,"intre 20 si 30",vara
+Stanjenel,Iris,Africa,campie,"Are un rizom gros, cu miros de iarba, din care porneste tulpina Œnalta si frunzele lanceolate",bulbi,"Proprietati terapeutice.",nisipos,februarie-martie,,albastru,"intre 5 si 9",iarna
+Narcisa,Narcissus,Africa,campie,"Bulbii sunt otravitori",bulbi,"Proprietati terapeutice",argilos,martie-aprilie,,galbena,"intre 15 si 19",toamna
+"Muscate Englezesti",Geranium,Africa,campie,"Solul care ii prieste cel mai bine este pamantul de gradina si locurile umbroase",bulbi,"Creste armonios si va inflori ca nicio alta planta dintre cele pe care le ai deja.",calcaros,februarie-septembrie,,roz,"intre 25 si 29",vara
+"Muscate Curgatoare",Pelargonium,Africa,campie," Sunt foarte sensibile la frig.",bulbi,"Creste armonios si va inflori ca nicio alta planta dintre cele pe care le ai deja.",calcaros,februarie-septembrie,,rosie,"intre 25 si 29",vara
+"Lalea Roz",Tulipa,Asia,deal,"Sunt plante usor de cultivat",bulbi,"Forma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.",nisipos,martie-aprilie,lalea,roz,"intre 15 si 10",toamna
+"Lalea Rosie",Tulipa,Asia,deal,"Sunt plante usor de cultivat",bulbi,"Forma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.",nisipos,martie-aprilie,lalea,rosie,"intre 15 si 10",primavara
+"Lalea Alba",Tulipa,Asia,deal,"Sunt plante usor de cultivat",bulbi,"Froma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.",nisipos,martie-aprilie,lalea,alb,"intre 15 si 10",toamna
+"Lalea Albastra",Tulipa,Asia,deal,"Sunt plante usor de cultivat",bulbi,"Forma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.",nisipos,martie-aprilie,lalea,albastru,"intre 15 si 10",primavara
+Gladiola,Gladiolus,Europa,campie,"Sunt plante care nu rezista la frig.",bulbi,"Au petalele dantelate sau franjurate.",calcaros,iunie-august,,rosie,"intre 15 si 10",vara
+"Garoafa rosie","Dianthus Caryophyllus",America,deal,"Este o planta care are nevoie de soare din plin si trebuie udata la anumite intervale de timp.",butasi,"Florile pot fi parfumate, simple sau duble, de mai multe culori.",argilos,octombrie-martie,,rosie,"intre -5 si 10",iarna
+Craciunita,"Euphorbia pulcherrima",Europa,sera,"Este preferat sa mentineti doar pamantul umed.",seminte,"Planta are proprietatea de a-si schimba culoarea frunzelor in rosu in preajma Craciunului.",ghiveci,decembrie-februarie,,rosie,"intre -5 si 9",iarna
+Begonia,Begonia,Europa,sera,"Necesita amplasare intr-un spatiu luminos, ferita de razele soarelui",bulbi,"Recunoscute pentru frumusetea florilor delicate care seamana foarte bine cu trandafiri miniaturali.",ghiveci,ianuarie-deccembrie,,portocalie,"intre 20 si 25",vara
+"Trandafir Galben","Rosa rugosa luteus",Europa,campie,"Plantarea se face intr-un loc insoris si uscat.",butasi,"Mirosul puternic si placut, folosit in produsele cosmetice.",nisipos,februarie-martie,trandafir,galben,"intre 20 si 30",vara
+Crin,Lilium,Europa,sera,"Apa din vazele cu crini trebuie schimbata zilnic .",seminte,"Flori foarte puternic parfumate, este bine sa fie scoase din camera de locuit.",ghiveci,ianuarie-decembrie,,alb,"intre 15 si 29",vara
+Iasomie,Jasminum,Europa,campie,"Mirosul florilor de iasomie este un adevarat medicament!",butasi,"Proprietati terapeutice.",oricare,iunie-august,,alb,"intre 25 si 30",vara
+Ghiocel,Galanthus,Europa,munte,"Planta are nevoie de umezeala si de racoare.",bulbi,"Floarea alba este actinomorfa, bisexuata, are ?ase petale.",calcaros,februarie-martie,,alb,"intre -5 si 9",iarna
+Ciclama,"Cyclamen persicum",Asia,sera,"Vara, ele trebuie udate abundenta.",tuberculi,"Florile au culori stralucitoare sau nuante pastel, sunt mari si frapante sau mici si parfumate.",ghiveci,februarie-mai,,roz,"intre 10 si 20",toamna
+Camelie,Camellia,Europa,campie,"Floarea trebuie sa  stea Œntr-un loc aerisit, usor umbrit, ferit de soare",butasi,"Exista numeroase varietati ale acestei flori, ce au aspectul unui trandafir.",nisipos,mai-august,,roz,"intre 15 si 19",primavara
+Papadie,"Taraxacum officinale",Toate,campie,"Perioada cea mai buna pentru a recolta papadia este primavara.",seminte,"Radacina si frunzele sunt bogate Œn fructoza si insulina.",argilos,aprilie-mai,,galben,"intre 15 si 19",toamna
+Petunie,"Petunia hybrida",America,campie,"Aceste plante au nevoie de pamant fertilizat cu substante organice.",seminte,"Este o planta decorativa cu un parfum puternic si placut iar aspectul lor este destul de firav.",oricare,mai-octombrie,,mov,"intre 15 si 19",vara
+Brandusa,"Crocus vernus",Asia,munte,"Prefera un sol bine drenat, Œn locuri Œnsorite sau la umbra copacilor ?i arbu?tilor",bulbi,"Este o planta medicinala.",oricare,martie-aprilie,,mov,"intre 10 si 20",primavara
+Crizantema,Chrysanthemum,America,deal,"Sensibila la durata de iluminare.De asemenea, este sensibila si la temperaturile extreme.",bulbi,"Au florile cu dimensiuni si forme dintre cele mai variate, de la simple la duble, involte .",nisipos,martie-mai,,galbena,"intre 10 si 15",primavara
+Liliac,"Syringa vulgaris",Europa,deal,"Poate atinge pana la 4 metri inaltime.",butasi,"Ofera un spectacol imbatator si colorat.",nisipos,aprilie-mai,,alb,"intre 15 si 19",primavara
+Lacramioara,"Convallaria majalis",Europa,munte,"Este o planta cultivata pentru frumusetea florilor si parfumul acestora.",bulbi,"Este folosita ca hrana pentru larvele unor fluturi si molii.",argilos,martie-aprilie,,alb,"intre 10 si 15",primavara
+Frezie,Freesia,Europa,munte,"Sunt cultivate intr-un loc aerisit care sa beneficieze de multa lumina,",bulbi,"Sunt apreciate pentru parfumul si aspectul lor delicat.",argilos,februarie-mai,,galben,"intre 15 si 20",primavara
+Minirosa,"Rosa chinensis minima",Europa,sera,"Plantarea se face intr-un loc insoris si uscat.",butasi,"Mirosul puternic si placut, folosit in produsele cosmetice.",ghiveci,februarie-martie,trandafir,roz,"intre 20 si 30",vara
+Orhidee,Orchidaceae,Europa,sera,"Este foarte sensibila la schimbarile bruste de temperatura,",bulbi,"Florile rezista luni la rand.",ghiveci,mai-octombrie,,alb,"intre 15 si 20",primavara
+Zambila,"Hyacinthus orientalis",Europa,munte,"Zambila in ghiveci nu are nevoie de altceva decat de apa",bulbi,"O zambila inflorita, cu bulbul fixat in solul din ghiveci, poate sa tina si cateva saptamani.",ghiveci,mai-august,,roz,"intre 15 si 19",primavara
+Bujor,Paeonia,Asia,deal,"Floarea isi schimba culoarea de cand se deschide si pana se scutura.",bulbi,"Erau folositi pentru tratarea unei mari varietati de afectiuni.",calcaros,mai-august,,roz,"intre 15 si 20",toamna
+Nufar,Nuphar,Europa,delta,"Creste in apele statatoare si lin curgatoare.",seminte,"Florile sunt frecvent aromate, au petalele de culori diferite asezate pe mai multe randuri.",mlastinos,mai-august,,alb,"intre 5 si 10",primavara
+" capsuni albastre","blue fraise",Europa,sera,"are nevoie de lumina",seminte,"au gust bun",gradina,martie-aprilie,"capsuni rosii",albastra,"intre 0 si 2",vara
+busuioc,"ocimum basilicum",Asia,camp,"are nevoie de lumina",seminte,"este considerat regele mirodeniilor",gradina,mai-iunie,anason,verde,"intre -4 si -7",toamna

@@ -4,6 +4,8 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
   <link href="css/contact-us.css" rel="stylesheet" type="text/css" />
  <link rel="stylesheet" type="text/css" href="Incluziuni/incluziuni.css">
+ <link rel="stylesheet" href="cssMenu/layout.css" type="text/css" media="screen">
+ <link rel="stylesheet" href="cssMenu/menu.css" type="text/css" media="screen">
 </head> 
 <body>
 	<?php include('Incluziuni/header.php');?>

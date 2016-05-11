@@ -7,7 +7,7 @@
 </head>
 <body>
 <header>
-	<img src="banner3.jpg" width="1350" height="100">	
+	<img src="banner1.png" width="1350" height="150">	
 </header>
 <div id="wrapper" action="register-backend2.php" method="post">
 <div id="register" class="animate form">

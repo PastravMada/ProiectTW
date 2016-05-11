@@ -17,7 +17,7 @@
     $password=$_REQUEST["password"];
 
 
-    $conn=oci_connect("mihaela","veronica","localhost/XE");
+    $conn=oci_connect("mihaela","veronica","localhost");
 
     if(!$conn)
         echo ("EROARE LA CONEXIUNEA CU ORACLE DB");
@@ -53,7 +53,7 @@
         	header("location: ../Admin/admin.php");
         }
         else{
-        header("location: ../cautareAvansata.php");
+        header("location: ../homePage.php");
     		}
       }
   

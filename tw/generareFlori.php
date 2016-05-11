@@ -4,6 +4,8 @@
 	<link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
 	<link rel="stylesheet" type="text/css" href="Incluziuni/incluziuni.css">
 	<link rel="stylesheet" type="text/css" href="css/generareFlori.css">
+	<link rel="stylesheet" href="cssMenu/layout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="cssMenu/menu.css" type="text/css" media="screen">
 
 </head>
 <body background="back1.jpg">

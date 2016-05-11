@@ -5,6 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="Incluziuni/incluziuni.css">
 	<link rel="stylesheet" type="text/css" href="css/generareFlori.css">
 	<script src="functions.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="cssMenu/layout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="cssMenu/menu.css" type="text/css" media="screen">
 </head>
 <body background="back1.jpg">
 	<?php include('Incluziuni/header.php');include('Incluziuni/aside.php');?>
