@@ -34,9 +34,9 @@
 								$descriere=oci_result($stid1, 'DESCRIERE');
 								$denumire=oci_result($stid1, 'DENUMIREPOPULARA');
 								echo '<br><br>';
-								echo '<div class="unParfum"><a href=generareFloare.php?id='.$id_detalii.'>';
+								echo '<div ><a href=generareFloare.php?id='.$id_detalii.'>';
 								echo '<div align="center">';
-								echo "<p style='font-size:180%;color:red;'>$denumire</p>'";
+								echo "<p style='font-size:180%;color:red;'>".ucwords($denumire)."</p>'";
 								echo '<img  style="height:400px;width:600px;" src="'.$imagine. '"/>';
 								echo '</div>';
 								echo '<p>'.$descriere.'</p>';

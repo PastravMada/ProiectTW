@@ -42,6 +42,7 @@
 					$temperatura=oci_result($stid, 'TEMPERATURA');
 					$anotimp=oci_result($stid, 'ANOTIMP');
 					$descriereEngleza=oci_result($stid, 'DESCRIEREENGLEZA');
+					$descriereFranceza=oci_result($stid, 'DESCRIEREFRANCEZA');
 				}								
 								
 				$sql2='SELECT * FROM PLANTE WHERE ID_DETALII=:id_detalii';
@@ -53,7 +54,7 @@
 					$denumireStiintifica=oci_result($stid2, 'DENUMIRESTIINTIFICA');
 				    $descriere=oci_result($stid2, 'DESCRIERE');
 				}
-				echo "<h2 style='background-color:#BDB76B;color:black;padding-left:20px;'>".$denumirePopulara."</h2>";
+				echo "<h2 style='background-color:#BDB76B;color:black;padding-left:20px;'>".ucwords($denumirePopulara)."</h2>";
 				echo "<div class='in'><img class='image' id='bigImg' align='centre' src='".$imagini."'/></div>";
 				
 				echo "<div id='div1'>";
@@ -70,7 +71,7 @@
 				echo "<span class='tooltiptext'>'".$descriereEngleza."'</span></div>";
 				echo "<br>";
 				echo "<div class='tooltip'><b>Description en Francais</b>";
-				echo "<span class='tooltiptext'>'Tres belle'</span></div>";
+				echo "<span class='tooltiptext'>'".$descriereFranceza."'</span></div>";
 				echo "<br><br><br><b>Denumire stiintifica: </b>".$denumireStiintifica;
 				echo "<br><br><b>Origine:</b> ".$origine;
 				echo "<br><br><b>Localizare: </b>".$localizare;
