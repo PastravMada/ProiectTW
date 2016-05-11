@@ -66,19 +66,19 @@ soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) V
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
 soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(12,'Africa','campie','Bulbii sunt otravitori','bulbi','Imagini/narcisa.jpg',
-'Proprietati terapeutice','argilos','martie-aprilie','','galbena','intre 15 si 19','primavara','Therapeutic properties.','Propriétés thérapeutiques.');
+'Proprietati terapeutice','argilos','martie-aprilie','','galbena','intre 15 si 19','toamna','Therapeutic properties.','Propriétés thérapeutiques.');
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
-soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(13,'Africa','campie','Solul care ii prieste cel mai bine este pamantul de gradina si locurile umbroase','bulbi','Imagini/MuscataEnglezeasca.jpg',
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(13,'Africa','campie','Solul care ii prieste cel mai bine este pamantul de gradina si locurile umbroase','bulbi','Imagini/muscateEnglezesti.jpg',
 'Creste armonios si va inflori ca nicio alta planta dintre cele pe care le ai deja.','calcaros','februarie-septembrie','','roz','intre 25 si 29','vara','Grow harmoniously and that no other plant will bloom of the ones you already have .','Cultiver harmonieusement et qu-aucune autre plante fleurira de ceux que vous avez déjà.');
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
-soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(14,'Africa','campie',' Sunt foarte sensibile la frig.','bulbi','Imagini/MuscataCurgatoare.jpg',
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(14,'Africa','campie',' Sunt foarte sensibile la frig.','bulbi','Imagini/muscateCurgatoare.jpg',
 'Creste armonios si va inflori ca nicio alta planta dintre cele pe care le ai deja.','calcaros','februarie-septembrie','','rosie','intre 25 si 29','vara','Grow harmoniously and that no other plant will bloom of the ones you already have .','Cultiver harmonieusement et qu-aucune autre plante fleurira de ceux que vous avez déjà.');
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
 soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(15,'Asia','deal','Sunt plante usor de cultivat','bulbi','Imagini/laleaRoz.jpg',
-'Forma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.','nisipos','martie-aprilie','lalea','roz','intre 15 si 10','primavara','Cupped, vibrant colors and elegance are some of the traits of this plant.','Coupe, couleurs vives et l-élégance sont quelques-uns des traits de cette plante.');
+'Forma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.','nisipos','martie-aprilie','lalea','roz','intre 15 si 10','toamna','Cupped, vibrant colors and elegance are some of the traits of this plant.','Coupe, couleurs vives et l-élégance sont quelques-uns des traits de cette plante.');
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
 soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(16,'Asia','deal','Sunt plante usor de cultivat','bulbi','Imagini/laleaRosie.jpg',
@@ -86,7 +86,7 @@ soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) V
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
 soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(17,'Asia','deal','Sunt plante usor de cultivat','bulbi','Imagini/laleaAlba.jpg',
-'Froma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.','nisipos','martie-aprilie','lalea','alb','intre 15 si 10','primavara','Cupped, vibrant colors and elegance are some of the traits of this plant.','Coupe, couleurs vives et l-élégance sont quelques-uns des traits de cette plante.');
+'Froma de cupa, culorile vibrante si eleganta sunt doar cateva dintre trasaturile acestei plante.','nisipos','martie-aprilie','lalea','alb','intre 15 si 10','toamna','Cupped, vibrant colors and elegance are some of the traits of this plant.','Coupe, couleurs vives et l-élégance sont quelques-uns des traits de cette plante.');
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
 soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(18,'Asia','deal','Sunt plante usor de cultivat','bulbi','Imagini/laleaAlbastra.jpg',
@@ -121,12 +121,12 @@ soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) V
 'Proprietati terapeutice.','oricare','iunie-august','','alb','intre 25 si 30','vara','Therapeutic properties.','Propriétés thérapeutiques.');
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
-soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(26,'Europa','munte','Planta are nevoie de umezeala si de racoare.','bulbi','Imagini/ghiocei.jpg',
+soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(26,'Europa','munte','Planta are nevoie de umezeala si de racoare.','bulbi','Imagini/ghiocel.jpg',
 'Floarea albă este actinomorfă, bisexuată, are șase petale.','calcaros','februarie-martie','','alb','intre -5 si 9','iarna','Actinomorfe white flower is bisexual , it has six petals .','Actinomorfe fleur blanche est bisexuelle, il a six pétales.');
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
 soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(27,'Asia','sera','Vara, ele trebuie udate abundenta.','tuberculi','Imagini/ciclama.jpg',
-'Florile au culori strălucitoare sau nuanţe pastel, sunt mari şi frapante sau mici şi parfumate.','ghiveci','februarie-mai','','roz','intre 10 si 20','primavara','The flowers have bright colors or pastel shades , large and small striking or scented .','Les fleurs ont des couleurs vives ou des tons pastel, frappant grandes et petites ou parfumée.');
+'Florile au culori strălucitoare sau nuanţe pastel, sunt mari şi frapante sau mici şi parfumate.','ghiveci','februarie-mai','','roz','intre 10 si 20','toamna','The flowers have bright colors or pastel shades , large and small striking or scented .','Les fleurs ont des couleurs vives ou des tons pastel, frappant grandes et petites ou parfumée.');
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
 soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(28,'Europa','campie','Floarea trebuie să  stea într-un loc aerisit, uşor umbrit, ferit de soare','butasi','Imagini/camelia.jpg',
@@ -134,7 +134,7 @@ soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) V
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
 soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(29,'Toate','campie','Perioada cea mai bună pentru a recolta păpădia este primăvara.','seminte','Imagini/papadia.jpg',
-'Rădăcina şi frunzele sunt bogate în fructoză şi insulină.','argilos','aprilie-mai','','galben','intre 15 si 19','primavara','The root and leaves are rich in fructose and insulin.','La racine et les feuilles sont riches en fructose et de l-insuline.');
+'Rădăcina şi frunzele sunt bogate în fructoză şi insulină.','argilos','aprilie-mai','','galben','intre 15 si 19','toamna','The root and leaves are rich in fructose and insulin.','La racine et les feuilles sont riches en fructose et de l-insuline.');
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
 soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(30,'America','campie','Aceste plante au nevoie de pamant fertilizat cu substante organice.','seminte','Imagini/petunia.jpg',
@@ -174,7 +174,7 @@ soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) V
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
 soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(39,'Asia','deal','Floarea isi schimba culoarea de cand se deschide si pana se scutura.','bulbi','Imagini/bujor.jpg',
-'Erau folositi pentru tratarea unei mari varietati de afectiuni.','calcaros','mai-august','','roz','intre 15 si 20','primavara','They were used to treat a wide variety of ailments.','Ils ont été utilisés pour traiter une grande variété de maladies.');
+'Erau folositi pentru tratarea unei mari varietati de afectiuni.','calcaros','mai-august','','roz','intre 15 si 20','toamna','They were used to treat a wide variety of ailments.','Ils ont été utilisés pour traiter une grande variété de maladies.');
 
 INSERT INTO DETALII(id_detalii,origine,localizare,caracteristici,inmultire,imagini,beneficii,regimDezvoltare,perioadaCultivare,
 soiuriInrudite,culoare,temperatura,anotimp,descriereEngleza,descriereFranceza) VALUES(40,'Europa','delta','Creste in apele statatoare si lin curgatoare.','seminte','Imagini/nufar.jpg',

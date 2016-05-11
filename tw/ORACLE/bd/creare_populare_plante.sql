@@ -74,10 +74,10 @@ INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,ima
 VALUES(112,12,'Narcisa','Narcissus','Imagini/narcisa.jpg','In limbajul florilor, narcisa exprima prietenia, bucuria, vacanta. Este considerata o floare a copiilor si a adolescentei. Se daruieste la nasterea unui copil, simbolizand bucuria de a intampina o noua viata. Ca floare a dragostei, narcisa exprina sinceritatea. ');
 
 INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(113,13,'Muscate Englezesti','Geranium','Imagini/muscataEnglezeasca.jpg','Florile plantei sunt mari si au un aspect elegant, de unde si denumirea de muscata englezeasca.In general, aceste muscate sunt disponibile in nuante multiple, de la alb si crem, la violet si lila. Petalele au un aspect usor catifelat.');
+VALUES(113,13,'Muscate Englezesti','Geranium','Imagini/muscateEnglezesti.jpg','Florile plantei sunt mari si au un aspect elegant, de unde si denumirea de muscata englezeasca.In general, aceste muscate sunt disponibile in nuante multiple, de la alb si crem, la violet si lila. Petalele au un aspect usor catifelat.');
 
 INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(114,14,'Muscate Curgatoare','Pelargonium','Imagini/muscataCurgatoare.jpg','De la inceputul primaverii si pana toamna tarziu, muscatele curgatoare infrumuseteaza balcoanele si terasele iubitorilor de natura. Aceste plante se bucura de aprecierile generale datorita faptului ca infloresc in permanenta si din abundenta, au flori intr-o paleta coloristica variata si sunt usor de intretinut..');
+VALUES(114,14,'Muscate Curgatoare','Pelargonium','Imagini/muscateCurgatoare.jpg','De la inceputul primaverii si pana toamna tarziu, muscatele curgatoare infrumuseteaza balcoanele si terasele iubitorilor de natura. Aceste plante se bucura de aprecierile generale datorita faptului ca infloresc in permanenta si din abundenta, au flori intr-o paleta coloristica variata si sunt usor de intretinut..');
 
 INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
 VALUES(115,15,'Lalea Roz','Tulipa','Imagini/laleaRoz.jpg','Perfecte pentru prieteni si rude, lalelele roz simbolizeaza afectiuni si sentimente puternice, dar nu romantice.');
