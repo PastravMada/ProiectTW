@@ -1,14 +1,6 @@
 <?php
     $conn=oci_connect("mihaela","veronica","localhost/XE");
 	$user=$_POST['id_user'];
-   	$sql="CREATE OR REPLACE TRIGGER adresa_user
-         BEFORE UPDATE OF adresa ON USERI
-         FOR EACH ROW
-      BEGIN
-        UPDATE COMENZI
-        SET adresa_livrare=:New.adresa
-         WHERE id_user='$user';
-      END;";
 	$stid = oci_parse($conn,$sql);
     $r = oci_execute($stid);
 	  if($r) 
