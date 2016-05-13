@@ -12,7 +12,7 @@
 		<ul id="nav">
 		<li><a href="../index.php">Home</a></li>
 			<li><a href="admin.php">Home Admin</a></li>
-			<li><a href="">Add admin</a></li>
+			<li><a href="addAdmin.php">Add admin</a></li>
 			<li><a href="insertPlanta.php">Insert</a></li>
 			<li><a href="">Update</a></li>
 			<li><a href="">Delete</a></li>
