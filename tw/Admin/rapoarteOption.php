@@ -18,7 +18,13 @@
 	echo "<h2 align=center style='color:black;'>Vizualizare rapoarte in format $format</h2>";
 		
 	if($format=='XML'){
+		echo "<section align=center>";
+
+		echo "<div><a href='csvImport.php'><h3>Import date</h3></a></div>";
+		echo "<div><a href='csvExport.php'><h3>Export date</h3></a></div>";	
+		echo "</br></br>";			
 		
+		echo "</section>";
 	}
 
 	else if($format=='CSV'){
