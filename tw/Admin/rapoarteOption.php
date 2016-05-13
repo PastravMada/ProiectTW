@@ -20,8 +20,8 @@
 	if($format=='XML'){
 		echo "<section align=center>";
 
-		echo "<div><a href='csvImport.php'><h3>Import date</h3></a></div>";
-		echo "<div><a href='csvExport.php'><h3>Export date</h3></a></div>";	
+		echo "<div><a href='xmlImport.php'><h3>Import date</h3></a></div>";
+		echo "<div><a href='xmlExport.php'><h3>Export date</h3></a></div>";	
 		echo "</br></br>";			
 		
 		echo "</section>";
