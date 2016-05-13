@@ -48,10 +48,10 @@ while($row = oci_fetch_array($stid, OCI_BOTH)) {
 	<th><input class="heighttext" type="text" name="email" size="16" value="<?=$row[5];?>"></th></tr>
     <tr><th width="60" height="50" style="background-color:#BDB76B;color:black;"> <div align="left">Sex</div></th>
 	<th><input class="heighttext" type="text" name="sex" size="16" value="<?=$row[6];?>"></th></tr>
-	<tr><th width="60" height="50" style="background-color:#BDB76B;color:black;"> <div align="left">Oras</div></th>
-	<th><input class="heighttext" type="text" name="oras" size="16" value="<?=$row[7];?>"></th></tr>
-	<tr><th width="100" height="50" style="background-color:#BDB76B;color:black;"> <div align="left">Adresa</div></th>
-	<th><input class="heighttext" type="text" name="adresa" size="16" value="<?=$row[8];?>"></th></tr>
+	<tr><th width="60" height="50" style="background-color:#BDB76B;color:black;"> <div align="left">Adresa</div></th>
+	<th><input class="heighttext" type="text" name="adresa" size="16" value="<?=$row[7];?>"></th></tr>
+	<tr><th width="100" height="50" style="background-color:#BDB76B;color:black;"> <div align="left">Telefon</div></th>
+	<th><input class="heighttext" type="text" name="telefon" size="16" value="<?=$row[8];?>"></th></tr>
     <th><input type="hidden" name="id_user" size="16" value="<?=$row[0];?>"></th></tr>
 </table>
 <br/>
