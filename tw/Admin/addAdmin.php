@@ -11,7 +11,7 @@
 	<h2 align=center style='color:black;'>Doriti sa deveniti admin?</h2>
 	<section align=center>
 		<div><a href="addAdminOption.php?format=DA">DA</a></div>	
-		<div><a href="addAdminOption.php?format=NU">NU</a></div>
+		<div><a href="homePage.php">NU</a></div>
 	</section>
 </body>
 </html>
