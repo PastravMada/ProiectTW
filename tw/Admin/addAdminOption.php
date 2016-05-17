@@ -14,10 +14,9 @@
 	
 	<div id="addAdmin">
 	<?php
-		
+	$format=$_REQUEST['format'];
 	if($format=='DA'){
-    isset($_POST['username']))
-    {
+     if(isset($_POST['username'])){
         $username = $_POST['username'];
         $sql = "UPDATE useri SET username='$username' WHERE username='$username'";
                 $stid = oci_parse($conn,$sql);
@@ -34,7 +33,7 @@
                     echo 'Data is not updated...<br>';
                 }
     }
-
+	}
 ?>
 <li><a href="Admin/admin.php">Pagina Admi</a></li>
 	}

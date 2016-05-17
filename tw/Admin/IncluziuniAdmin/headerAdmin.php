@@ -14,7 +14,7 @@
 			<li><a href="admin.php">Home Admin</a></li>
 			<li><a href="addAdmin.php">Add admin</a></li>
 			<li><a href="insertPlanta.php">Insert</a></li>
-			<li><a href="updateFlower.php">Update</a></li>
+			<li><a href="updateAllFlowers.php">Update</a></li>
 			<li><a href="">Delete</a></li>
 			<li><a href="rapoarte.php">Raport</a></li>
 			
