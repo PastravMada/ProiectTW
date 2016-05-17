@@ -80,16 +80,16 @@ echo "<form action='update1.php?id=".$id_flower."' method='post' enctype='multip
 					<tr><th width="59" height="50" style="background-color:#BDB76B;color:black;"> <div align="left">Anotimp</div></th>
 					<th ><input class="heighttext" type="text" name="anotimp" size="16" value="<?=$anotimp;?>"></th></tr>
 					<tr><th width="60" height="50" style="background-color:#BDB76B;color:black;"> <div align="left">Descriere</div></th>
-					<th><input class="heighttext" type="text" name="descriereFranceza" size="16" value="<?=$descriere;?>"></th></tr>
+					<th><input class="heighttext" type="text" name="descriere" size="16" value="<?=$descriere;?>"></th></tr>
 					<tr><th width="7" height="50" style="background-color:#BDB76B;color:black;"> <div align="left">Descriere Engleza</div></th>
 					<th><input class="heighttext" type="text" name="descriereEngleza" size="16" value="<?=$descriereEngleza;?>"></th></tr>
 					<tr><th width="60" height="50" style="background-color:#BDB76B;color:black;"> <div align="left">Descriere Franceza</div></th>
 					<th><input class="heighttext" type="text" name="descriereFranceza" size="16" value="<?=$descriereFranceza;?>"></th></tr>
+					<tr><th width="60" height="50" style="background-color:#BDB76B;color:black;"> <div align="left">Schimbati imagine</div></th>
+					<th><input class="heighttext" type="file" name="imagini" size="16" value="<?=$imagini;?>"></th></tr>
 					</table>
 					<br/>
 				<?php
-				echo "<label>Schimbati imaginea: </label>";
-				echo "<input type='file' name='imagini'/>";
 				}
 		}
 		echo "<input id='submit' type='submit' value='Modifica'/> ";

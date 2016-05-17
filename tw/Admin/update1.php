@@ -7,7 +7,7 @@
 <?php
     $conn=oci_connect("mihaela","veronica","localhost/XE");
 	$id_det=$_GET['id'];
-	
+
     if(isset($_POST['id_detalii'])&&isset($_POST['denumirePopulara'])&&
     isset($_POST['denumireStiintifica'])&&isset($_POST['descriere'])&&
     isset($_POST['origine'])&&isset($_POST['localizare'])&&
@@ -63,8 +63,8 @@
                 $r = oci_execute($stid);
 		$sql1= "UPDATE DETALII SET id_detalii=$id_detalii,origine='$origine',localizare='$localizare',caracteristici='$caracteristici',
 				inmultire='$inmultire',imagini='$dir',beneficii='$beneficii',regimDezvoltare='$regimDezvoltare',perioadaCultivare='$perioadaCultivare',
-				soiuriInrudite='$soiuriInrudite',culoare='$culoare',temperatura='$temperatura,anotimp='$anotimp',descriereEngleza='$descriereEngleza'
-				,descriereFranceza='$descriereFranceza') WHERE ID_DETALII='$id_det'";
+				soiuriInrudite='$soiuriInrudite',culoare='$culoare',temperatura='$temperatura',anotimp='$anotimp',descriereEngleza='$descriereEngleza',
+				descriereFranceza='$descriereFranceza' WHERE ID_DETALII='$id_det'";
                 $stid1 = oci_parse($conn,$sql1);
                 $r1 = oci_execute($stid1);
 				
