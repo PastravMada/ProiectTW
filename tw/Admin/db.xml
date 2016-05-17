@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <ROWSET>
 <ROW>
-<id_planta>60</id_planta>
+<id_detalii>70</id_detalii>
 <origine>Europa</origine>
 <localizare>sera</localizare>
 <caracteristici>Are nevoie de lumina.</caracteristici>
 <inmultire>seminte</inmultire>
 <imagini>Imagini/capsuniAlbastre.png</imagini>
 <beneficii>Au gust bun.</beneficii>
-<regimDezvoltare>gradina</regimdezvoltare>
+<regimDezvoltare>gradina</regimDezvoltare>
 <perioadaCultivare>martie-aprilie</perioadaCultivare>
 <culoare>albastra</culoare>
 <temperatura>intre 0 si 2</temperatura>
@@ -22,7 +22,7 @@
 <descriere>Capsunile albastre este un soi de capsuni foarte rar.</descriere>
 </ROW>
 <ROW>
-<id_detalii>61</id_detalii>
+<id_detalii>71</id_detalii>
 <origine>Asia</origine>
 <localizare>camp</localizare>
 <caracteristici>Are nevoie de lumina.</caracteristici>
