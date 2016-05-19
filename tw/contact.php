@@ -5,8 +5,8 @@
   <link rel="shortcut icon" href="logo.ico" />
   <link href="css/contact-us.css" rel="stylesheet" type="text/css" />
  <link rel="stylesheet" type="text/css" href="Incluziuni/incluziuni.css">
- <link rel="stylesheet" href="cssMenu/layout.css" type="text/css" media="screen">
- <link rel="stylesheet" href="cssMenu/menu.css" type="text/css" media="screen">
+ <link rel="stylesheet" href="Admin/cssMenu/layout.css" type="text/css" media="screen">
+ <link rel="stylesheet" href="Admin/cssMenu/menu.css" type="text/css" media="screen">
 </head> 
 <body>
 	<?php include('Incluziuni/header.php');?>
