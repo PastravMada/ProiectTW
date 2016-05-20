@@ -35,8 +35,8 @@
     }
 	}
 ?>
-<li><a href="Admin/admin.php">Pagina Admi</a></li>
-	}
+<li><a href="Admin/admin.php">Pagina Admin</a></li>
+}
 	</div>
 </body>
 </html>

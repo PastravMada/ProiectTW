@@ -67,13 +67,14 @@ function verify_errors($errno)
         $oras = $_POST['oras'];
         $telefon = $_POST['telefon'];
         $adresa = $_POST['adresa'];
-$stid = oci_parse($conn, "CALL userNameRegister('andreea','ion')");
-$r = oci_execute($stid);
-if (!$r) {
-    $e = oci_error($stid);  // For oci_execute errors pass the statement handle
-    verify_errors($e['code']);
-}
-else
+		
+		$stid = oci_parse($conn, "CALL userNameRegister('andreea','ion')");
+		$r = oci_execute($stid);
+		if (!$r) {
+			$e = oci_error($stid);  // For oci_execute errors pass the statement handle
+			verify_errors($e['code']);
+		}
+	else
 
     $sql2='SELECT ID_USER FROM USERI WHERE ID_USER=(SELECT MAX(ID_USER) FROM USERI)';
     $stid2=oci_parse($conn, $sql2);

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
+	<meta Http-Equiv="Content-Type" Content ="text/html; Charset=UTF-8">
+	<link rel="shortcut icon" href="logo.ico" />
 	<link rel="stylesheet" type="text/css" href="Incluziuni/incluziuni.css">
 	<link rel="stylesheet" type="text/css" href="css/generareFlori.css">
-	<link rel="stylesheet" href="cssMenu/layout.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="cssMenu/menu.css" type="text/css" media="screen">
-
+	<link rel="stylesheet" href="Admin/cssMenu/layout.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="Admin/cssMenu/menu.css" type="text/css" media="screen">
 </head>
 <body background="back1.jpg">
 	<?php include('Incluziuni/header.php');?>
@@ -39,9 +39,9 @@
 								echo '<div ><a href=generareFloare.php?id='.$id_detalii.'>';
 								echo '<div align="center">';
 								echo "<p style='font-size:180%;color:red;'>".ucwords($denumire)."</p>'";
-								echo '<img  style="height:400px;width:600px;" src="'.$imagine. '"/>';
+								echo '<img  style="height:400px;width:530px;" src="'.$imagine. '"/>';
 								echo '</div>';
-								echo '<p>'.$descriere.'</p>';
+								echo '<p>'.($descriere).'</p>';
 								echo "</a></div>";	
 						}						
                      }				

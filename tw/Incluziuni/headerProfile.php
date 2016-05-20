@@ -2,9 +2,9 @@
 <div class="container">
     <div class="content">
 		<ul id="nav">
-			<li><a href="index.php"> Home</a></li>
+			<li><a href="homePage.php"> Home</a></li>
 			<li><a href="register.php">Register</a></li>
-			<li><a href="contact.php">Contact</a></li>
+			<li><a href="contact.php">About</a></li>
 			
 			<?php if(!isset($username)){?>
 			<li><a href="login.php">Login</a></li>

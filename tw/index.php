@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
-		<link rel="stylesheet" type="text/css" href="Incluziuni/incluziuni.css">
+	<link rel="stylesheet" type="text/css" href="Incluziuni/incluziuni.css">
 	<link rel="stylesheet" type="text/css" href="css/register.css">
 	<script src="script.js" type="text/javascript"></script>
 </head>

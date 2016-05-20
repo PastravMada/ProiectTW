@@ -1,7 +1,7 @@
 <aside>
 	<h3>Go to page</h3>
 	<br>			   
-	<li><a href="index.php">HomePage</a></li>
+	<li><a href="homePage.php">HomePage</a></li>
 	<br><br>
 	<li><a href="generareFlori.php?anotimp=primavara">Flori de primavara</a></li>
 	<br><br>

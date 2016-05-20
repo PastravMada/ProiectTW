@@ -24,7 +24,7 @@ session_start();
 <form action="updated.php?" name="frmEdit" method="post">
 
 <?php
-$conn=oci_connect("mihaela","veronica","localhost/XE"); 
+$conn=oci_connect("mihaela","veronica","localhost"); 
 	
 $sql = "SELECT * FROM USERI WHERE username='$username'";
 $stid = oci_parse($conn,$sql);

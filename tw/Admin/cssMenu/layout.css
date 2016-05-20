@@ -3,14 +3,15 @@
     padding:0;
 }
 .container {
-    background:url("../images/banner1.png") repeat-x top left;
-    border-top: 5px solid #000000;
-	border-bottom: 5px solid #000000;
-    height: 130px;
+    background:url("../images/") repeat-x top left;
+	background-color:white;
+    border-top: 15px solid #000000;
+	border-bottom: 1px solid #000000;
+    height: 90px;
     overflow: hidden;
     width: 100%;
 }
 .content {
-    margin-left:5px;  
+    margin-left:45px;  
     width:900px;
 }
