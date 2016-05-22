@@ -67,7 +67,7 @@ colorare artificiala. Se spune ca ar fi fost adus din Asia de catre Alexandru ce
  albastru in procesul de prelucrare.');
  
  INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(111,11,'Stanjenel','Iris','Imagini/stanjenel.jpeg','Florile sunt doar puţin parfumate, prezinta trei petale orientate in jos si trei in sus, iar sub petale apar trei stamine si un ovar.
+VALUES(111,11,'Stanjenel','Iris','Imagini/stanjenel.jpg','Florile sunt doar puţin parfumate, prezinta trei petale orientate in jos si trei in sus, iar sub petale apar trei stamine si un ovar.
 Stanjenelul se cultiva atat ca planta medicinala cat si decorativa, dar se foloseste si in industria de parfumuri si cosmetica.');
 
 INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
@@ -98,7 +98,7 @@ INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,ima
 VALUES(120,20,'Garoafa rosie','Dianthus Caryophyllus','Imagini/garoafaRosie.jpg','Garoafele sunt un gen de plante care infloreste anual, de doua ori pe an sau in continuu. Garoafa are frunze ascutite, lanceolate, de culoare gri-verzui, asezate de-a lungul tulpinii; frunzele se intorc usor in afara. Florile pot fi parfumate, simple sau duble, de mai multe culori. Exista multi hibrizi de garoafa care nu au parfum, dar au o varietate mai mare de culori..');
  
  INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(121,21,'Craciunita','Euphorbia pulcherrima','Imagini/craciunita.jpeg','Craciunita este una dintre plantele de apartament cel mai usor de ingrijit si, poate de aceea, una dintre cele mai des intalnite in apartamentele noastre. Planta este recunoscuta de toata lumea ca fiind singura planta cu proprietatea ei de a-si schimba culoarea frunzelor in rosu in preajma Craciunului.');
+VALUES(121,21,'Craciunita','Euphorbia pulcherrima','Imagini/craciunita.jpg','Craciunita este una dintre plantele de apartament cel mai usor de ingrijit si, poate de aceea, una dintre cele mai des intalnite in apartamentele noastre. Planta este recunoscuta de toata lumea ca fiind singura planta cu proprietatea ei de a-si schimba culoarea frunzelor in rosu in preajma Craciunului.');
 
 INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
 VALUES(122,22,'Begonia','Begonia','Imagini/begonia.jpg','Este o planta romantica, potrivita atat intr-un mediu rustic, cat si in spatiile moderne, unde rotunjimile sale atenueaza liniile uneori prea rigide.Florile sale sunt variat colorate, de la rosu, galben, portocaliu, roz pana la alb sau degradeuri..');
@@ -128,7 +128,7 @@ INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,ima
 VALUES(130,30,'Petunie','Petunia hybrida','Imagini/petunia.jpg','Petunia este una dintre cele mai populare si indragite flori pentru decor. In nenumarate culori, precum alb, galben, roz, rosu, albastru sau violet, floarea de petunie este in forma de trompeta , cu marginea ondulata sau franjuri.');
  
  INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(131,31,'Brandusa','Crocus vernus','Imagini/brandusa.jpeg','Brandusa de toamna este o planta medicinala care creste pe pasuni, fanete umede an zona de deal sau munte, care poate atinge chiar si inaltimea de 50 cm. Florile au culoare violet-purpurie. Brandusa infloreste in luna septembrie, iar fructele se formeaza in al doilea an.');
+VALUES(131,31,'Brandusa','Crocus vernus','Imagini/brandusa.jpg','Brandusa de toamna este o planta medicinala care creste pe pasuni, fanete umede an zona de deal sau munte, care poate atinge chiar si inaltimea de 50 cm. Florile au culoare violet-purpurie. Brandusa infloreste in luna septembrie, iar fructele se formeaza in al doilea an.');
 
 INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
 VALUES(132,32,'Crizantema','Chrysanthemum','Imagini/crizantema.jpg','Specifică toamnei, crizantema se gaseste sub formele cele mai diverse, de la tufele pitice pana la cele de un metru inaltime, cu flori care acopera aproape toata gama de culori cunoscuta, cu dimensiuni si forme dintre cele mai variate, de la simple la duble, involte (batute), stelate, globuloase etc.Toate au acel parfum minunat, inconfundabil, care ne anunta ca a venit toamna.');

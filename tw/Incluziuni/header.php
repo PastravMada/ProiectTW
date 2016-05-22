@@ -13,7 +13,7 @@
 				$username=$_SESSION['login_user']; 
 				if($username=='admin'){?>
 				<li><a href="Admin/admin.php">Admin Home</a></li>
-				<?php }}?>
+				<?php }}?>				
 				<li><a href="contact.php">About</a></li>
 				<?php if(isset($_SESSION['login_user'])){?>
 				<li><a href="updateProfile.php">Profile</a></li>
@@ -23,6 +23,7 @@
 				<?php }else {?>
 				<li><a href="back-end/logout.php">Logout</a></li>
 				<?php } ?>
+				<li><a href="cautareAvansata.php">Cautare avansata</a></li>
 		</ul>
 	</div>
 </div>

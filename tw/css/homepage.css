@@ -1,0 +1,11 @@
+#home{
+	display: inline;
+	float:		left;
+	width:		810px;
+	overflow:	hidden;
+	margin:		60px;
+	margin-left: 50px;
+	padding:	20px;
+	margin-right: 5px;
+	background:white;
+}

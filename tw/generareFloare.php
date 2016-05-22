@@ -16,7 +16,11 @@
 	<link rel="stylesheet" type="text/css" href="css/generareFloare.css">
 	<link rel="stylesheet" href="Admin/cssMenu/layout.css" type="text/css" media="screen">
     <link rel="stylesheet" href="Admin/cssMenu/menu.css" type="text/css" media="screen">
-	<script src="oneFlower.js"></script>
+<script>
+	function changeImage(src1) {
+		document.getElementById("bigImg").src = src1;
+	   };
+</script>
 </head>
 <body background="back1.jpg">
 	<?php include('Incluziuni/header.php');?>
@@ -35,8 +39,7 @@
 					$origine=oci_result($stid, 'ORIGINE');
 					$localizare=oci_result($stid, 'LOCALIZARE');
 					$caracteristici=oci_result($stid, 'CARACTERISTICI');
-					$inmultire=oci_result($stid, 'INMULTIRE');
-					$imagini=oci_result($stid,'IMAGINI');
+					$inmultire=oci_result($stid, 'INMULTIRE');					
 					$beneficii=oci_result($stid, 'BENEFICII');
 					$regimDezvoltare=oci_result($stid,'REGIMDEZVOLTARE');
 					$perioadaCultivare=oci_result($stid,'PERIOADACULTIVARE');
@@ -46,6 +49,42 @@
 					$anotimp=oci_result($stid, 'ANOTIMP');
 					$descriereEngleza=oci_result($stid, 'DESCRIEREENGLEZA');
 					$descriereFranceza=oci_result($stid, 'DESCRIEREFRANCEZA');
+					
+					$imaginiDetalii=oci_result($stid,'IMAGINI');
+					$fullString=explode(':', $imaginiDetalii);
+					$len = count($fullString);
+
+					if($len==0){
+						$im1="noImage.png";
+						$im2="noImage.png";
+						$im3="noImage.png";
+						$im4="noImage.png";
+					}
+					
+					if($len==1){
+						$im1=$fullString[0];
+						$im2="noImage.png";
+						$im3="noImage.png";
+						$im4="noImage.png";
+					}
+					if($len==2){
+						$im1=$fullString[0];
+						$im2=$fullString[1];
+						$im3="noImage.png";
+						$im4="noImage.png";
+					}
+					if($len==3){
+						$im1=$fullString[0];
+						$im2=$fullString[1];
+						$im3=$fullString[2];
+						$im4="noImage.png";
+					}
+					if($len==4){
+						$im1=$fullString[0];
+						$im2=$fullString[1];
+						$im3=$fullString[2];
+						$im4=$fullString[3];
+					}					
 				}								
 								
 				$sql2='SELECT * FROM PLANTE WHERE ID_DETALII=:id_detalii';
@@ -56,15 +95,16 @@
 					$denumirePopulara=oci_result($stid2, 'DENUMIREPOPULARA');
 					$denumireStiintifica=oci_result($stid2, 'DENUMIRESTIINTIFICA');
 				    $descriere=oci_result($stid2, 'DESCRIERE');
+					$imagini=oci_result($stid2,'IMAGINE');
 				}
 				echo "<h2 style='background-color:#BDB76B;color:black;padding-left:20px;'>".ucwords($denumirePopulara)."</h2>";
 				echo "<div class='in'><img class='image' id='bigImg' align='centre' src='".$imagini."'/></div>";
 				
 				echo "<div id='div1'>";
-				echo "<img class='smallImage' src='flower.png' onclick='changeImage(this.src)'/>";
-				echo "<img class='smallImage' src='back1.jpg'  onclick='changeImage(this.src)'/>";
-				echo "<img class='smallImage' src='bee.png' onclick='changeImage(this.src)'/>";
-				echo "<img class='smallImage' src='back1.jpg' onclick='changeImage(this.src)'/>";
+				echo "<img class='smallImage' src='".$im1."' onclick='changeImage(this.src)'/>";
+				echo "<img class='smallImage' src='".$im2."'  onclick='changeImage(this.src)'/>";
+				echo "<img class='smallImage' src='".$im3."' onclick='changeImage(this.src)'/>";
+				echo "<img class='smallImage' src='".$im4."' onclick='changeImage(this.src)'/>";
 				echo "</div>";
 				
 				echo "<div style='background:;'class='detalii'>";
@@ -118,7 +158,7 @@
 				echo "</div>";
 			}
 			if($ok=='false'){
-				echo "<p style='margin-top:20px;border-top:1px dashed black;'>Nu exista comentarii despre acest produs.</p>";
+				echo "<p style='margin-top:20px;border-top:1px dashed black;'>Nu exista comentarii despre aceasta floare.</p>";
 			}
 			?>
 			</article>

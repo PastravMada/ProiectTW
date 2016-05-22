@@ -20,8 +20,7 @@
 					$stid=oci_parse($conn, $sql);
 					oci_execute($stid);            
                     while(oci_fetch($stid)){
-                        $id_detalii=oci_result($stid, 'ID_DETALII');
-        				$imagine=oci_result($stid, 'IMAGINI');
+                        $id_detalii=oci_result($stid, 'ID_DETALII');       				
 												
 						$sql1='SELECT * FROM PLANTE WHERE ID_DETALII=:valoare';
 						$stid1=oci_parse($conn, $sql1);
@@ -29,6 +28,8 @@
 						oci_execute($stid1);
 							while(oci_fetch($stid1)){
 								$denumire=oci_result($stid1, 'DENUMIREPOPULARA');
+								$imagine=oci_result($stid1, 'IMAGINE');
+								
 								echo "<div style='display:inline-block;margin-left:115px;'><a href=updateFlower.php?id=".$id_detalii.">";
 								echo "<div align='center'>";
 								echo "<p style='font-size:180%;color:red;'>".ucwords($denumire)."</p>'";

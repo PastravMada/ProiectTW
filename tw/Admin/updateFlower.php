@@ -29,8 +29,7 @@ echo "<form action='update1.php?id=".$id_flower."' method='post' enctype='multip
 					$origine=oci_result($stid, 'ORIGINE');
 					$localizare=oci_result($stid, 'LOCALIZARE');
 					$caracteristici=oci_result($stid, 'CARACTERISTICI');
-					$inmultire=oci_result($stid, 'INMULTIRE');
-					$imagini=oci_result($stid,'IMAGINI');
+					$inmultire=oci_result($stid, 'INMULTIRE');					
 					$beneficii=oci_result($stid, 'BENEFICII');
 					$regimDezvoltare=oci_result($stid,'REGIMDEZVOLTARE');
 					$perioadaCultivare=oci_result($stid,'PERIOADACULTIVARE');
@@ -49,6 +48,7 @@ echo "<form action='update1.php?id=".$id_flower."' method='post' enctype='multip
 						$denumirePopulara=oci_result($stid2, 'DENUMIREPOPULARA');
 						$denumireStiintifica=oci_result($stid2, 'DENUMIRESTIINTIFICA');
 						$descriere=oci_result($stid2, 'DESCRIERE');
+						$imagini=oci_result($stid2,'IMAGINE');
 					?>	
 					<table width="550" border="0">
 					<tr><th width="100" height="50" style="background-color:#BDB76B;color:black;"> <div align="left">Id detalii</div></th>
