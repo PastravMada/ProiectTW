@@ -1,3 +1,4 @@
+
 #main {
     padding: 5px;
     padding-left:  15px;
@@ -36,12 +37,10 @@ h1 {
     font-size: 30px;
 	
 }
-div.container {
-  height: 10em;
+.container1 {
+  height: 7em;
   display: flex;
+  margin-top:50px;
   align-items: center;
   justify-content: center;
-text-align: center;  }
- 
-
-
+  text-align: center;  }
