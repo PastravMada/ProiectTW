@@ -1,4 +1,3 @@
-
 <?php
 
 $c1 = oci_connect("mihaela", "veronica", 'localhost/XE');
@@ -10,23 +9,22 @@ $username = isset($_POST['username']) ? $_POST['username'] : '';
     <link rel="stylesheet" href="cssMenu/menu.css" type="text/css" media="screen">
 	<form name="register_form" method="post">
     <table width="50%" border="0" cellpadding="0" cellspacing="2">
-<?php include('IncluziuniAdmin/headerAdmin.php');? ?>
+<?php include('IncluziuniAdmin/headerAdmin.php');?>
+<head>
+  <title>Add admin</title>
+</head>
 	 <form >
- <tr><div align="center">
-       <td width="100%">Username-ul introdus de dumneavoastra va fi admin:</td>
-    </tr><br><tr>
-            <td width="40%">Username</td>
-            <td><input type="text" name="username" id="username" /></td>
-   </tr><br>
-   <tr>
-           Sunteti sigur?
-    <input type="checkbox" name="formWheelchair" value="Yes" />
-
- </tr><br><tr>
-            <td>&nbsp;</td>
-            <td><input type="submit" name="btn_i" id="in" value="Adauga" /></td>
-        </div></tr>
-    </table>
+	 <div id="main" class="container">
+       <h1>Username-ul introdus de dumneavoastra va fi admin:</h1>
+	   <div class="container">
+           <tr> <tr><h2>Username
+            <input type="text" name="username" id="username" /></h2></tr>
+          <tr><h3 >Sunteti sigur?
+    <input type="checkbox" name="formWheelchair" value="Yes" /></h3></tr>
+            <tr><input  type="submit" name="btn_i" id="button" value="Adauga" style="display: block; margin: 0 auto;"/></tr><tr>
+			</div>
+       </div>
+   </table>
 </form>
 </form>
 <?php 
@@ -67,3 +65,4 @@ $s1 = ociparse($c1, "SELECT * FROM useri WHERE username='$username'");
 
 	
 }
+
