@@ -1,3 +1,4 @@
+
 <?php
 
 $c1 = oci_connect("mihaela", "veronica", 'localhost/XE');
@@ -12,6 +13,7 @@ $username = isset($_POST['username']) ? $_POST['username'] : '';
 <?php include('IncluziuniAdmin/headerAdmin.php');?>
 <head>
   <title>Add admin</title>
+  <link href="admin1.css" rel="stylesheet">
 </head>
 	 <form >
 	 <div id="main" class="container">
