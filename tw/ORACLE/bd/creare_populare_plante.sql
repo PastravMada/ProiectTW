@@ -13,7 +13,11 @@ CREATE TABLE PLANTE(
 
 
 INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
-VALUES(101,1,'Alstroemeria alba','Alstroemeria albescens','Imagini/alstroemeriaAlba.jpg','Descoperita in Columbia in 1894 de Edward Ambre este una dintre cele mai frumoase specii, tulpina are 30-80 cm lungime si poate fi volubila la exemplare varstnice , ea emite din mugurii de la baza lastari cu radacini mai ales in urma lucrarii de musuroire. Acestia sunt folositi la inmultire. Frunzele sunt cordiforme mari, de 25, 30 cm/15-20cm sunt lung petiolate si colorate verde stralucitor. Radacinile sunt puternice, groase si carnoase. Spata este mare de 8-20cm/8-20cm carnoasa, culoare carmin, roz sau alb, spadicele e drept sau usor curbat lung de 5-6 cm , alb sau galben.');
+VALUES(101,1,'Alstroemeria alba','Alstroemeria albescens','Imagini/alstroemeriaAlba.jpg','Descoperita in Columbia in 1894 de Edward Ambre 
+este una dintre cele mai frumoase specii, tulpina are 30-80 cm lungime si poate fi volubila la exemplare varstnice , ea emite din mugurii 
+de la baza lastari cu radacini mai ales in urma lucrarii de musuroire. Acestia sunt folositi la inmultire. Frunzele sunt cordiforme mari, 
+de 25, 30 cm/15-20cm sunt lung petiolate si colorate verde stralucitor. Radacinile sunt puternice, groase si carnoase. Spata este mare de 
+8-20cm/8-20cm carnoasa, culoare carmin, roz sau alb, spadicele e drept sau usor curbat lung de 5-6 cm , alb sau galben.');
 
 INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
 VALUES(102,2,'Amarilis','Amaryllis','Imagini/amarilis.jpg','Amaryllis este o planta tropicala de ghiveci, cu bulb, apreciata 
@@ -155,5 +159,3 @@ VALUES(139,39,'Bujor','Paeonia','Imagini/bujor.jpg','In vechime, bujorii erau fo
 
 INSERT INTO PLANTE(id_planta,id_detalii,denumirePopulara,denumireStiintifica,imagine,descriere) 
 VALUES(140,40,'Nufar','Nuphar','Imagini/nufar.jpg','Nufarul alb este o planta erbacee perenă, ocrotita de lege, intalnita in ape stagnante sau lin curgatoare si adanci pana la 2 metri.Florile sunt albe, mari, cu un miros dulce si cu circa 20 de petale.');
-Status API Training Shop Blog About
-© 2016 GitHub, Inc. Term
