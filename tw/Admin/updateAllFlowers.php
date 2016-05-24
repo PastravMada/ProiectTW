@@ -32,7 +32,7 @@
 								
 								echo "<div style='display:inline-block;margin-left:115px;'><a href=updateFlower.php?id=".$id_detalii.">";
 								echo "<div align='center'>";
-								echo "<p style='font-size:180%;color:red;'>".ucwords($denumire)."</p>'";
+								echo "<p style='font-size:180%;color:red;'>".ucwords($denumire)."</p>";
 								echo '<img  style="height:200px;width:300px;" src="'.$imagine. '"/>';
 								echo "</div>";
 								echo "</a></div>";	
