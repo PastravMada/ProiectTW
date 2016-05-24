@@ -6,10 +6,18 @@
 	<link rel="stylesheet" type="text/css" href="css/homepage.css">
 	<link rel="stylesheet" href="Admin/cssMenu/layout.css" type="text/css" media="screen">
     <link rel="stylesheet" href="Admin/cssMenu/menu.css" type="text/css" media="screen">
+    <script type="text/javascript" src="filtrareNume.js"></script>
+    
 </head>
 <body background="back1.jpg">
 	<?php include('Incluziuni/header.php');
 	      include('Incluziuni/aside.php');?>
+	     
+
+<section style="margin-top: 5% " align="left">Denumire: <input type="text" id="inputDenumire" name="FirstName" >  <button onclick="changeName()"> Cauta</button>
+</section>
+
+
 		<article id="home">
 			<?php
 			$counter=0;
@@ -49,4 +57,5 @@
 	?>
 		</article>
 </body>
+
 </html>

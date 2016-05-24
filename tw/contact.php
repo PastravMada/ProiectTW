@@ -7,33 +7,58 @@
  <link rel="stylesheet" type="text/css" href="Incluziuni/incluziuni.css">
  <link rel="stylesheet" href="Admin/cssMenu/layout.css" type="text/css" media="screen">
  <link rel="stylesheet" href="Admin/cssMenu/menu.css" type="text/css" media="screen">
+ <script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+ <script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(47.1585,27.6014),
+    zoom:12,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng( 47.174541, 27.574825),
+    map: map,
+    title: 'Hello World!'
+  });
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </head> 
-<body>
+<body  background="back1.jpg">
 	<?php include('Incluziuni/header.php');?>
-<section id="contact">
 
-<h2 class="box">Contact :</h2> 
-<a><b>Iasi:</b> 0735 385.040</a>
-<a><b>Email:</b> dalila@dalilagarden.ro</a></section>
-<div>
 
-  <section id="right">
-  <a>Puteti sa ne sunati sau sa ne trimiteti un email !</a>
-<p>
-<br></br>
-<b>Adresa :</b> Str. Lt. Av. Marcel Andreescu , Nr. 19, Iasi - Romania
-<br></br>
-<b>Program:</b> 09:00 - 19:30 de luni pana vineri
-<br></br>
-<b>Tarif intrare:</b> 10 lei adult - 5 lei student/elev/copil
-<br></br>
-<b>Telefon:</b> 021-300.00.00
-<br></br>
-<b>FAX:</b> 021-300.80.00
+<div style="margin-top: 2% " align="center" >
+<p>TELEFON: 021 410 91 39 (luni-vineri 07:30 - 15:30)</p>
+<p>E-MAIL: gradinabotanica@yahoo.com </p>
+<br/><br/>
 
+<h4>PROGRAM</h4>
+<p>zilnic intre orele 08-20 (1 aprilie-31 octombrie)</p>
+<br/><br/>
+  <h4>BILET INTRARE GRADINA BOTANICA</h4>
+<p>Intrarea este gratuita pentru prescolari si studenti
+
+	<ul>Spatiile exterioare ale Gradinii Botanice
+		<li>bilet intreg: 5 ron</li>
+		<li>bilet redus: 2 ron</li>
+	</ul>
+	<ul>Sere
+		<li>bilet intreg: 2 ron</li>
+		<li>bilet redus: 1 ron</li>
+	</ul>
+<p>Bilete reduse: pensionari, elevi, studenti</p>
+<p>Abonament lunar (intrari nelimitate in Gradina Botanica timp de o luna calendaristica): 40 ron</p>
 </p>
-</section>
-
+<br/><br/>
+<h4>LOCALIZARE</h4>
+<div id="googleMap" style="width:500px;height:380px;"></div>
 </div>
+
 </body>
 </html>
+
+

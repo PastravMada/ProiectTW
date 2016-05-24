@@ -14,7 +14,7 @@
 				if($username=='admin'){?>
 				<li><a href="Admin/admin.php">Admin Home</a></li>
 				<?php }}?>				
-				<li><a href="contact.php">About</a></li>
+				<li><a href="contact.php">Contact</a></li>
 				<?php if(isset($_SESSION['login_user'])){?>
 				<li><a href="updateProfile.php">Profile</a></li>
 				<?php }?>

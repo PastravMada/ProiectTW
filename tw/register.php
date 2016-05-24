@@ -6,9 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/register.css">
 </head>
 <body>
-<header>
-	<img src="banner1.png" width="1350" height="150">	
-</header>
+<img src="flower.png" id="imagineLogin">
+  <img src="bee.png" id="imagineLogin2">
+  <p id="textLogin">Wellcome to FII Garden!</p>
 <div id="wrapper" action="register-backend2.php" method="post">
 <div id="register" class="animate form">
       <form  action="back-end/register-back-end2.php" method="post" autocomplete="on"> 

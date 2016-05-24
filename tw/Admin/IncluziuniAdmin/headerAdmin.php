@@ -12,10 +12,10 @@
 		<ul id="nav">
 		<li><a href="../index.php">Home</a></li>
 			<li><a href="admin.php">Home Admin</a></li>
-			<li><a href="AddAdmin.php">Add admin</a></li>
-			<li><a href="insertPlanta.php">Insert</a></li>
-			<li><a href="updateAllFlowers.php">Update</a></li>
-			<li><a href="">Delete</a></li>
+			<li><a href="AddAdmin.php">Adaugare admin</a></li>
+			<li><a href="insertPlanta.php">Adaugare Planta</a></li>
+			<li><a href="updateAllFlowers.php">Modificare Planta</a></li>
+			<li><a href="">Stergere Planta</a></li>
 			<li><a href="rapoarte.php">Raport</a></li>
 			
 			<?php if(!isset($username)){?>
