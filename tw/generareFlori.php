@@ -38,7 +38,7 @@
 								echo '<br><br>';
 								echo '<div ><a href=generareFloare.php?id='.$id_detalii.'>';
 								echo '<div align="center">';
-								echo "<p style='font-size:180%;color:red;'>".ucwords($denumire)."</p>'";
+								echo "<p style='font-size:180%;color:red;'>".ucwords($denumire)."</p>";
 								echo '<img  style="height:400px;width:530px;" src="'.$imagine. '"/>';
 								echo '</div>';
 								echo '<p>'.($descriere).'</p>';
